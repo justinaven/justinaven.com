@@ -1,0 +1,22 @@
+---
+layout: default
+title: Justin&#256;ven.com
+---
+
+
+	{% for post in site.posts %}
+
+	<div class="post">
+		<div class="post-head">
+			<a href="{{ post.url }}">
+				<h2>{{ post.title | upcase }}</h2>
+				<p class="post-date">{{ post.date | date: "%Y.%m.%d" }}</p>
+			</a>
+		</div>
+
+		<div class="post-content">
+			{{ post.excerpt }} 
+		</div>
+		<a class="read-more" href="{{ post.url }}">read more</a>
+	</div>
+	{% endfor %}

@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "LESS is more... and better!"
+date:   2013-09-02 16:53:23
+categories: blog
+tags: 
+- learning
+- AB testing
+---
+
+A few weeks ago a couple of the guys on my team and I decided to start looking of the CSS of the site. We had been using LESS for a few months already but has notreally done much with it. We decided that it was time to get a hold of our color palette and start making use of the LESS variable capability.
+
+After sifting through all of our stylesheets, we discovered that we had accumulated over 100 colors spread across a little less than 500 instances. Almost 50 of them were shades of grey. Almost. This is not an easily maintainable palette. Here’s how we went about getting control:
+
+Organized the list based on color and shade in a spreadsheet noting how many instances there were of each color. It’s also good to note the gradient colors as well.
+Assigned each as a LESS variable.
+Replaced every color instance across all stylesheets with the ccorresponding variable.
+Start with your least used colors and see if you can use another similar color in your palette. Keep it if you don’t have another close color. NOTE: theoretically, LESS allows you to use functions to shade, shift and create new colors, so you COULD reduce your colors to 1, but be realistic when whittling your colors down. You need to have a reasonable amount of colors from which to choose.
+Remember marking the gradients? Now go through and see if you can eleminate the grediant colors and replace them with a lighten() and/or a darken()shade of the background (base) color of what you’re styling.
+Example:
+
+{% highlight css %}
+button.gradient {
+background: @red5;
+background-image: (@red3, @red9);
+}
+
+button.gradient {
+background: @red5;
+background-image: (lighten(@red5, 5%), darken(@red5, 3%));
+}
+
+{% endhighlight %}
+
+There’s no magic number of colors or perfect formula for how to manage them, but for your own sanity and the sanity of those who will have to one day maintain your site, get your color paletter under control. Also, establishing a color paletter before you begin your site will help you to avoid havin to refactor your colors later.

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post">
+	<div class="post-head">
+		<h2>{{ page.title | upcase }}</h2>
+		<p class="post-date">{{ page.date | date: "%Y.%m.%d" }}</p>
+	</div>
+	<div class="post-content">
+	{{ content }}
+	</div>
+	<div class="tags">{{page.tags}}</div>
+</div>

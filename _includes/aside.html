@@ -1,0 +1,19 @@
+<aside>
+	<h1 id="logo">
+		<a href="/">
+			<span class="j">J</span>
+			<span class="a">&#256;</span>
+		</a>
+	</h1>
+	<h4>Categories</h4>
+	<ul>
+	{% for tag in site.tags %}
+	    <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.categories.size }}%">
+	        <a href="/{{ tag | first | slugize }}/">
+	            {{ tag | first }}
+	        </a>
+	    </li>
+	{% endfor %}
+
+	</ul>
+</aside>

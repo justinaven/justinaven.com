@@ -1,0 +1,339 @@
+/* line 10, ../scss/style.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, ../scss/style.scss */
+html {
+  background: #2e3034;
+  background: #2e3034 url(../images/sos-blue9.png) repeat;
+  color: #dddddd;
+  font-family: "Open Sans", Geneva, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+/* line 40, ../scss/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 45, ../scss/style.scss */
+html a {
+  color: #914012;
+  text-decoration: none;
+  transition: color .2s;
+}
+/* line 49, ../scss/style.scss */
+html a:hover {
+  color: white;
+}
+
+/* line 53, ../scss/style.scss */
+.header {
+  background: #914012;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #7a360f), color-stop(20%, #883c11), color-stop(45%, #723512), color-stop(80%, #833a10), color-stop(100%, #643317));
+  /* Chrome,Safari4+ */
+  background: -moz-linear-gradient(-45deg, #7a360f 0%, #883c11 20%, #723512 45%, #833a10 80%, #643317 100%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(-45deg, #7a360f 0%, #883c11 20%, #723512 45%, #833a10 80%, #643317 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #7a360f 0%, #883c11 20%, #723512 45%, #833a10 80%, #643317 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #7a360f 0%, #883c11 20%, #723512 45%, #833a10 80%, #643317 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #7a360f 0%, #883c11 20%, #723512 45%, #833a10 80%, #643317 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7a360f', endColorstr='#643317',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  border-bottom: #444;
+  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.2);
+  line-height: 32px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  /* line 53, ../scss/style.scss */
+  .header {
+    padding: 10px 0%;
+    position: fixed;
+    top: 0;
+  }
+  /* line 105, ../scss/style.scss */
+  .header ul {
+    margin-top: 0;
+    padding: 7px 0 3px;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 53, ../scss/style.scss */
+  .header {
+    padding: 10px 5%;
+  }
+}
+/* line 115, ../scss/style.scss */
+.header h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+}
+@media screen and (min-width: 480px) {
+  /* line 115, ../scss/style.scss */
+  .header h1 {
+    display: none;
+    font-size: 45px;
+    line-height: 1.2;
+    padding: 0;
+  }
+}
+/* line 127, ../scss/style.scss */
+.header h1 .j {
+  font-size: 113%;
+}
+/* line 129, ../scss/style.scss */
+.header h1 a {
+  line-height: 0;
+  vertical-align: baseline;
+}
+/* line 134, ../scss/style.scss */
+.header a {
+  color: #dddddd;
+}
+
+/* line 140, ../scss/style.scss */
+#logo {
+  background: transparent url(../images/JA-logo-grey2.png) no-repeat 0 0;
+  background-size: contain;
+  text-indent: -9999px;
+}
+
+/* line 148, ../scss/style.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-size: .1px;
+  line-height: 0;
+  text-align: justify;
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  /* line 148, ../scss/style.scss */
+  nav ul {
+    text-align: right;
+  }
+}
+/* line 160, ../scss/style.scss */
+nav ul li {
+  display: inline-block;
+  line-height: 0px;
+  list-style-type: none;
+  min-width: 80px;
+  text-align: center;
+  width: 32.5%;
+}
+@media screen and (min-width: 480px) {
+  /* line 160, ../scss/style.scss */
+  nav ul li {
+    margin: 0 1.5%;
+    width: auto;
+  }
+}
+/* line 173, ../scss/style.scss */
+nav ul li a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 5px 10px;
+  -moz-transition: background .2s ease-in-out;
+  -webkit-transition: background .2s ease-in-out;
+  transition: background .2s ease-in-out;
+}
+/* line 185, ../scss/style.scss */
+nav ul li a:hover {
+  background: #815d41;
+  background: rgba(255, 255, 255, 0.2);
+}
+/* line 192, ../scss/style.scss */
+nav ul:after {
+  content: '';
+  display: inline-block;
+  height: 0;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 202, ../scss/style.scss */
+  .main {
+    margin: 60px auto 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 202, ../scss/style.scss */
+  .main {
+    width: 92%;
+  }
+}
+
+/* line 213, ../scss/style.scss */
+.content {
+  padding: 30px;
+}
+@media screen and (min-width: 480px) {
+  /* line 213, ../scss/style.scss */
+  .content {
+    margin-left: 33%;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 213, ../scss/style.scss */
+  .content {
+    margin-left: 200px;
+    padding-right: 0;
+  }
+}
+/* line 225, ../scss/style.scss */
+.content section {
+  margin: 0 auto 30px;
+}
+/* line 227, ../scss/style.scss */
+.content section:last-child, .content section .text p:last-child {
+  margin-bottom: 0;
+}
+/* line 232, ../scss/style.scss */
+.content .post {
+  margin-bottom: 30px;
+}
+/* line 17, ../scss/style.scss */
+.content .post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 236, ../scss/style.scss */
+.content .post .post-content > :first-child {
+  margin-top: 0;
+}
+/* line 237, ../scss/style.scss */
+.content .post .post-content > p:last-child {
+  margin-bottom: 0;
+}
+/* line 239, ../scss/style.scss */
+.content .post .read-more {
+  float: right;
+}
+/* line 242, ../scss/style.scss */
+.content .post-head {
+  font-family: "Open Sans Condensed", Geneva, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+/* line 246, ../scss/style.scss */
+.content .post-head h2 {
+  font-size: 30px;
+  margin: 0;
+}
+/* line 250, ../scss/style.scss */
+.content .post-head .post-date {
+  margin-top: 0;
+}
+
+/* line 254, ../scss/style.scss */
+.highlight pre {
+  -webkit-box-shadow: inset 0 0 7px #000;
+  -moz-box-shadow: inset 0 0 7px #000;
+  -o-box-shadow: inset 0 0 7px #000;
+  box-shadow: inset 0 0 7px #000;
+  overflow: auto;
+  padding: 10px 20px;
+}
+
+/* line 264, ../scss/style.scss */
+aside {
+  background: #1e2026;
+  border-radius: 2px 0 0 2px;
+  box-shadow: 1px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  /* line 264, ../scss/style.scss */
+  aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 33%;
+    z-index: 10;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 264, ../scss/style.scss */
+  aside {
+    width: 200px;
+  }
+}
+/* line 284, ../scss/style.scss */
+aside h1 {
+  display: none;
+  font-size: 55px;
+  line-height: 1.2;
+  margin: 0 0 30px;
+  text-align: left;
+  padding: 0;
+}
+/* line 285, ../scss/style.scss */
+aside h1 a {
+  color: #dddddd;
+}
+@media screen and (min-width: 480px) {
+  /* line 284, ../scss/style.scss */
+  aside h1 {
+    display: block;
+  }
+}
+/* line 298, ../scss/style.scss */
+aside h1 .hide {
+  display: none;
+}
+/* line 300, ../scss/style.scss */
+aside h1 .j {
+  font-size: 113%;
+  margin-right: -8px;
+}
+/* line 301, ../scss/style.scss */
+aside h1 .a {
+  margin-left: -8px;
+}
+/* line 303, ../scss/style.scss */
+aside h1 a {
+  line-height: 0;
+  vertical-align: baseline;
+}
+/* line 309, ../scss/style.scss */
+aside h4 {
+  color: #686b75;
+  font-size: 18px;
+  font-family: "Open Sans Condensed", Geneva, sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+/* line 317, ../scss/style.scss */
+aside ul {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 0;
+}
