@@ -1,0 +1,736 @@
+
+<!DOCTYPE html>
+<!--[if IE 7 ]><html lang="en" class="ie7" id="lifeway-com"><![endif]--><!--[if IE 8 ]><html lang="en" class="ie8" id="lifeway-com"><![endif]--><!--[if IE 9 ]><html lang="en" class="ie9" id="lifeway-com"><![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html lang="en" id="lifeway-com">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>LifeWay Christian Bible Study | Bible Studies for Life</title>
+
+
+    <link rel="stylesheet" type="text/css" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/stylesheets/.css/devices/webkit.css">
+
+    <link href="/portfolio/bsfl/css/bsfl-mobile.css" type="text/css" rel="stylesheet" media="all">
+
+    <!--<script type="text/javascript" src="//use.typekit.net/yiy1stl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+-->
+    <script type="text/javascript" src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/javascript/mw-libraries.js"></script>
+   <!-- <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script> -->
+
+    <link rel="shortcut icon" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/favicon.ico">
+    <link rel="apple-touch-icon" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/apple-touch-icon.png">
+</head>
+<body class="list mw-search-results">
+    <div id="corp_nav_wrapper" class="group">
+        <div id="corp_nav"></div>
+    </div>
+
+    <div id="head_wrapper" class="group" data-ur-set="tabs" data-ur-closeable="true">
+        <div id="header">
+            <div id="mw-nav">
+                <div id="mw-menu" class="mw-nav-item" data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="menu">
+                    <span class="sprites-menu-icon"></span><a>Menu</a>
+                </div>
+
+                <div id="mw-search" class="mw-nav-item" data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="search">
+                    <span class="sprites-menu-search-icon"></span><a>Search</a>
+                </div>
+
+                <div id="mw-stores" class="mw-nav-item">
+                    <span class="sprites-stores-icon"></span><a href="#">Stores</a>
+                </div>
+
+                <div id="cart" class=" mw-nav-item">
+                    <span class="sprites-shopping-cart-icon"></span>
+                    <input type="hidden" name="order_id" id="order_id" value="."><input type="hidden" name="userId" id="userId" value="-1002">
+                    <a href="#" id="miniCartPointer" style="text-decoration:none;">
+                        <span class="icon">Cart</span>
+                        <span class="amount">(0 items) $0.00</span>
+                    </a>
+
+                    <form>
+                        <input type="hidden" name="cartRefreshMessage" id="cartRefreshMessage" value="Refreshing" key="cart.refresh.message">
+                    </form>
+                </div>
+            </div>
+            <div class="logo"><div id="logo">
+                <a href="#"><img src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/lifeway-logo.png" width="108" alt="Lifeway"></a>
+            </div>
+        </div><!-- /#header -->
+    </div><!-- /#head-wrapper -->
+
+    <div id="primary_nav" data-ur-tabs-component="content" data-ur-tab-id="menu" data-ur-state="disabled">
+        <ul class="nav-level-one" data-ur-set="tabs" data-ur-closeable="true">
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="category"><a href="#">Shop<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_0" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="category"></ul>
+            </li>
+
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="role"><a href="#">Events<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_1" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="role"></ul>
+            </li>
+
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="engage"><a href="#">Articles<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_2" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="engage"></ul>
+            </li>
+        </ul>
+    </div><!-- #primary_nav -->
+
+    <div id="search" data-ur-tabs-component="content" data-ur-tab-id="search" data-ur-state="disabled">
+        <form method="get" id="SearchForm" action="http://m.lifeway.com/Keyword/">
+            <div>
+                <div class="fields" style="display:none;">
+                    <label for="Ntk">Select a field to search: </label>
+                    <select name="Ntk" id="Ntk" tabindex="1"><option value="Keyword" selected>All</option>
+                        <option value="Title">Title</option>
+                        <option value="Product">Product #</option>
+                        <option value="Author">Author</option>
+                    </select>
+                </div>
+                <div class="keywords">
+                    <label for="keyword">Search </label>
+                    <input name="Keyword" id="Keyword" value="" tabindex="2" autocomplete="off" onkeydown="clearSearchType()" type="text" placeholder="Search">
+                    <button type="submit" tabindex="3" id="searchButton" onclick="s_objectID='Gobal_Search';">
+                    <span class="sprites-search-icon"></span></button><div class="cb"></div>
+                </div>
+            </div>
+        </form>
+    </div><!-- /#search -->
+
+    <div id="message_wrapper" class="wrap">
+        <div id="message">
+
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+    //Messaging for the Custom User Form
+    //var formStatusMessage = 'Form successfully submitted.';
+    </script>
+
+    <!-- DEFAULT SUPER HERO -->
+
+<div class="super-hero">
+    <div id="super-hero-image">
+        <div class="view-all clearfix"><a href="#">View all Bible Study options</a></div>
+        <div class="sign-up-free"><a href="/portfolio/bsfl/mobile/sign-up"><span>Preview 3 Sessions Free</span></a></div>
+        <div class="logo-block">
+            <h5 class="border">COMING FALL 2013</h5>
+            <a href="/portfolio/bsfl/mobile/">
+                <img id="super-hero-logo" src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-hero-logo?fmt=png-alpha"/>
+            </a>
+        </div>
+        <img class="banner" src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-hero-banner?scl=1"/>
+    </div>
+</div>
+
+
+
+    <div id="wrapper">
+        <div id="content">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs">
+                    <li class="home"><a href="#">Home</a></li>
+                    <li><a href="#">Bible Study</a></li>
+                    <li>Sunday School Groups <span><a href="#"><span class="sprites-remove"></span></a></span></li>
+                    <div class="cb"></div>
+                </ul>
+            </div>
+
+            <div class="col_full">
+                <div class="html">
+                    <span id="settings" data-mobile-css="http://s3.amazonaws.com/LWbranding/bsfl/css/bsfl-mobile.css" data-mobile-js="http://s3.amazonaws.com/LWbranding/bsfl/js/bsfl.js"></span>
+<div class="bsfl options">
+    <div id="nav" class="clearfix">
+        <!-- <a class="button shop_now" href="#">Shop Now</a> -->
+        <ul id="main-nav">
+            <li><a href="/portfolio/bsfl/mobile/">Overview</a></li>
+            <li><a href="/portfolio/bsfl/mobile/contributors">Contributors</a></li>
+            <li><a href="/portfolio/bsfl/mobile/adults">Adults</a></li>
+            <li><a href="/portfolio/bsfl/mobile/students">Students</a></li>
+            <li><a href="/portfolio/bsfl/mobile/kids">Kids</a></li>
+            <li class="selected"><a href="/portfolio/bsfl/mobile/options">Options</a></li>
+        </ul>
+    </div>
+    <div class="options-tables clearfix">
+        <div class="options-table outer adult-table">
+            <div class="table-head clearfix">
+                <div class="attributes cell" colspan="2">
+                    <div class="highlight-box">
+                        <p class="sample-description">Get what you want, the way you want it. Starting this fall, you may choose from a variety of translation and format options.</p>
+                    </div>
+                </div><!-- /.attritbutes -->
+                <div class="adults col cell">
+                    <div class="title-img-block highlight-box">
+                        <div class="img-block">
+                            <div>
+                                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-logo-adults-blue?scl=1">
+                            </div>
+                        </div>
+                    </div> <!-- /.title-img-block -->
+                </div> <!-- /.adults.col.cell -->
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                <!-- First check-grid section of the table -->
+                    <tr class="mm">
+                        <td class="attributes double-cell print" colspan="2">
+                            <div>
+                                <h3>Print Translations</h3>
+                            </div>
+                        </td>
+                        <td class="adults col">
+                        </td> <!-- /.adults -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell print" rowspan="3">
+                        </td>
+                        <td class="attribute-2">HCSB</td>
+                        <td><span class="yes">Yes</span> <span class="note"><a href="#asterisks">(***)</a></span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span><span class="note"><a href="#asterisks">(***)</a></span></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td></td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="mm">
+                        <td class="attributes double-cell digital" colspan="2">
+                            <div>
+                                <h3>Digital Translations</h3>
+                            </div>
+                        </td>
+                        <td class="adults col">
+                        </td> <!-- /.adults -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell digital" rowspan="5">
+                        </td>
+                        <td class="attribute-2">HCSB</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">ESV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NKJV</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td>&nbsp;</td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="bb">
+                        <td class="attributes double-cell additional" colspan="2">
+                            <div>
+                                <h3>Additional Resources</h3>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <!-- <p>&nbsp;</p> -->
+                            </div>
+                        </td>
+                        <td class="adults col">
+                            <p><a href="#">Adult App</a> &#8212; App is for the Personal Study Guide only and will toggle between all four translations.</p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                    <tr class="more-details">
+                        <td class="attributes double-cell" colspan="2">
+                            <div>
+                                <h3>More Details</h3>
+                            </div>
+                        </td>
+                        <td class="adults col">
+                            <p><a href="#">Adults</a></p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                </tbody>
+            </table>
+        </div> <!-- /.options-table.outer.adult-table -->
+        <div class="options-table outer student-table">
+            <div class="table-head clearfix">
+                <div class="attributes cell" colspan="2">
+                    <div class="highlight-box">
+                        <p class="sample-description">Get what you want, the way you want it. Starting this fall, you may choose from a variety of translation and format options.</p>
+                    </div>
+                </div><!-- /.attritbutes -->
+                <div class="students col cell">
+                    <div class="title-img-block highlight-box">
+                        <div class="img-block">
+                            <div>
+                                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-logo-students-blue?scl=1">
+                            </div>
+                        </div>
+                    </div> <!-- /.title-img-block -->
+                </div> <!-- /.students.col.cell -->
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr class="mm">
+                        <td class="attributes double-cell print" colspan="2">
+                            <div>
+                                <h3>Print Translations</h3>
+                            </div>
+                        </td>
+                        <td class="students col">
+                        </td> <!-- /.students -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell print" rowspan="3">
+                        </td>
+                        <td class="attribute-2">HCSB</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td></td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="mm">
+                        <td class="attributes double-cell digital" colspan="2">
+                            <div>
+                                <h3>Digital Translations</h3>
+                            </div>
+                        </td>
+                        <td class="students col">
+                        </td> <!-- /.students -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell digital" rowspan="5">
+                        </td>
+                        <td class="attribute-2">HCSB</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">ESV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NKJV</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td>&nbsp;</td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="bb">
+                        <td class="attributes double-cell additional" colspan="2">
+                            <div>
+                                <h3>Additional Resources</h3>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </td>
+                        <td class="students col">
+                            <p><a href="#">Student App</a> &#8212; App is for the Personal Study Guide only and will toggle between all four translations.</p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                    <tr class="more-details">
+                        <td class="attributes double-cell" colspan="2">
+                            <div>
+                                <h3>More Details</h3>
+                            </div>
+                        </td>
+                        <td class="students col">
+                            <p><a href="#">Students</a></p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                </tbody>
+            </table>
+        </div> <!-- /.options-table.outer.student-table -->
+        <div class="options-table outer kid-table">
+            <div class="table-head clearfix">
+                <div class="attributes cell" colspan="2">
+                    <div class="highlight-box">
+                        <p class="sample-description">Get what you want, the way you want it. Starting this fall, you may choose from a variety of translation and format options.</p>
+                    </div>
+                </div><!-- /.attritbutes -->
+                <div class="kids col cell">
+                    <div class="title-img-block highlight-box">
+                        <div class="img-block">
+                            <div>
+                                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-logo-kids-blue?scl=1">
+                            </div>
+                        </div>
+
+                    </div> <!-- /.title-img-block -->
+                </div> <!-- /.kids.col.cell -->
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr class="mm">
+                        <td class="attributes double-cell print" colspan="2">
+                            <div>
+                                <h3>Print Translations</h3>
+                            </div>
+                        </td>
+                        <td class="kids col">
+                        </td> <!-- /.kids -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell print" rowspan="3">
+                        </td>
+                        <td class="attribute-2">HCSB</td>
+                        <td class="width-set"><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="no">n/a</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span> <span class="note"><a href="#asterisks">(**)</a></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td></td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="yes">Yes</span> <span class="note"><a href="#asterisks">(*)</a></span></td>
+                    </tr>
+                    <tr class="mm">
+                        <td class="attributes double-cell digital" colspan="2">
+                            <div>
+                                <h3>Digital Translations</h3>
+                            </div>
+                        </td>
+                        <td class="kids col">
+                        </td> <!-- /.kids -->
+                    </tr>
+                    <tr class="inner-table split-cell bb">
+                        <td class="attributes left-cell digital" rowspan="5">
+                        </td>
+                        <td class="attribute-2 bb">HCSB</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NIV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">ESV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">KJV</td>
+                        <td><span class="yes">Yes</span> <span class="note"><a href="#asterisks">(**)</a></span></td>
+                    </tr>
+                    <tr class="inner-table bb">
+                        <td class="attribute-2">NKJV</td>
+                        <td><span class="yes">Yes</span></td>
+                    </tr>
+                    <tr class="inner-table bb last">
+                        <td>&nbsp;</td>
+                        <td class="attribute-2">Neutral</td>
+                        <td><span class="yes">Yes</span> <span class="note"><a href="#asterisks">(*)</a></span></td>
+                    </tr>
+                    <tr class="empty bb">
+                        <td class="attributes double-cell additional" colspan="2">
+                            <div>
+                                <h3>Additional Resources</h3>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </td>
+                        <td class="kids col">
+                            <p>Family App &#8212; Fun games and review engage kids and parents in Bible learning together.</p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                    <tr class="more-details">
+                        <td class="attributes double-cell" colspan="2">
+                            <div>
+                                <h3>More Details</h3>
+                            </div>
+                        </td>
+                        <td class="kids col">
+                            <p><a href="#">Kids</a></p>
+                        </td> <!-- /.adults -->
+                    </tr>
+                </tbody>
+            </table>
+        </div> <!-- /.options-table.outer.kid-table -->
+    </div>
+    <div id="asterisks" class="section">
+        <div class="asterisk-notes">
+            <p><strong>* Translation Neutral</strong> = Scripture reference that can be used with any Bible. Available in Preschool, Kindergarten, and Special Buddies.</p>
+            <p><strong>** Multi-Translation</strong> = Both KJV and HCSB are shown in the Kids Broadly Graded versions.</p>
+            <p><strong>*** Large Print</strong></p>
+        </div>
+    </div>
+    <div class="section product-options">
+        <div class="adults age-block clearfix">
+            <div class="title-block">
+                <h5 class="border">ADULTS</h5>
+            </div>
+            <div class="resources-list">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Leader Guide</li>
+                    <li>Personal Study Guide</li>
+                    <li>Leader Pack</li>
+                    <li>Commentary</li>
+                    <li>Biblical Illustrator</li>
+                    <li><a href="#">Personal Study Guide App</a></li>
+                </ul>
+            </div>
+            <div class="sample-downloads clearfix">
+                <h3>Samples</h3>
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-adults-psg-cover?wid=155">
+                    </div>
+                    <p class="sample-name">Adults (37.9 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-youngadults-ldrcover?wid=155">
+                    </div>
+                    <p class="sample-name">Young Adults (18.7 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-senioradults-ldrcover?wid=155">
+                    </div>
+                    <p class="sample-name">Senior Adults (22.3 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-signup-img?scl=1&qlt=100,1&hei=203&wid=155">
+                    </div>
+                    <p class="sample-name">&nbsp;</p>
+                    <a class="button down-arrow" href="/portfolio/bsfl/mobile/sign-up">Sign Up</a>
+                </div> <!-- /.sample-img-block -->
+            </div>
+            <div class="sample-downloads clearfix">
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="https://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-agegroups-adults-psg-cover-video.jpg">
+                    </div>
+                    <p class="sample-name">Adults Video (329.5 MB)</p>
+                    <a class="button down-arrow" href="#">Download<span> Videos</span></a>
+                </div> <!-- /.sample-img-block -->
+            </div>
+        </div> <!-- /.adults -->
+        <div class="students age-block clearfix">
+            <div class="title-block">
+                <h5 class="border">STUDENTS</h5>
+            </div>
+            <div class="resources-list">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Leader Guide</li>
+                    <li>Personal Study Guide</li>
+                    <li>Leader Pack</li>
+                    <li><a href="#">Personal Study Guide App</a></li>
+                </ul>
+            </div>
+            <div class="sample-downloads clearfix">
+                <h3>Samples</h3>
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-students-ldrguide-cover?wid=155">
+                    </div>
+                    <p class="sample-name">Students (76 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="https://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-agegroups-students-ldrguide-cover-video.jpg">
+                    </div>
+                    <p class="sample-name">Students Videos <br /> (100 MB)</p>
+                    <a class="button down-arrow" href="#">Download<span> Videos</span></a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-signup-img?scl=1&qlt=100,1&hei=203&wid=155">
+                    </div>
+                    <p class="sample-name">&nbsp;</p>
+                    <a class="button down-arrow" href="/portfolio/bsfl/mobile/sign-up">Sign Up</a>
+                </div> <!-- /.sample-img-block -->
+            </div>
+        </div> <!-- /.students -->
+        <div class="kids age-block clearfix">
+            <div class="title-block">
+                <h5 class="border">KIDS</h5>
+            </div>
+            <div class="resources-list">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Leader Guide</li>
+                    <li>Leader Pack (includes Training Pictures)</li>
+                    <li>Kids Activity Pages</li>
+                    <li>Enhanced CD</li>
+                    <li>Preschool Life Action DVD</li>
+                    <li>Kids Life Action DVD</li>
+                </ul>
+            </div>
+            <div class="sample-downloads clearfix">
+                <h3>Samples</h3>
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-kids-preschool-ldrguide-cover?wid=155">
+                    </div>
+                    <p class="sample-name">Preschool (37 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-kids-3-4-ldrguide-cover?wid=155">
+                    </div>
+                    <p class="sample-name">Kids (26.1 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-kids-specialbuddies-ldrguide-cover?wid=155">
+                    </div>
+                    <p class="sample-name">Special Buddies <br />(59.6 MB)</p>
+                    <a class="button down-arrow" href="#">Download</a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-signup-img?scl=1&qlt=100,1&hei=203&wid=155">
+                    </div>
+                    <p class="sample-name">&nbsp;</p>
+                    <a class="button down-arrow" href="/portfolio/bsfl/mobile/sign-up">Sign Up</a>
+                </div> <!-- /.sample-img-block -->
+            </div>
+            <div class="sample-downloads clearfix">
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="https://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-agegroups-kids-preschool-ldrguide-cover-video.jpg">
+                    </div>
+                    <p class="sample-name">Preschool Videos <br />(79 MB)</p>
+                    <a class="button down-arrow" href="#">Download<span> Videos</span></a>
+                </div> <!-- /.sample-img-block -->
+                <div class="sample-img-block">
+                    <div class="img-block">
+                        <img src="https://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-agegroups-kids-3-4-ldrguide-cover-video.jpg">
+                    </div>
+                    <p class="sample-name">Kids Videos <br />(141.5 MB)</p>
+                    <a class="button down-arrow" href="#">Download<span> Videos</span></a>
+                </div> <!-- /.sample-img-block -->  
+            </div>
+        </div> <!-- /.kids -->
+    </div>
+    <div class="section second-nav clearfix">
+        <ul>
+            <li class="overview"><a href="/portfolio/bsfl/mobile/">Overview</a></li>
+            <li class="contr"><a href="/portfolio/bsfl/mobile/contributors">Contributors</a></li>
+            <li class="age"><a href="/portfolio/bsfl/mobile/age-groups">Age Groups</a></li>
+            <li class="shop_now"><a href="/portfolio/bsfl/mobile/sign-up">Free Preview</a></li>
+        </ul>
+    </div>
+    <div class="section promos">
+        <h3>Additional Bible Study offerings:</h3>
+        <ul class="clearfix">
+            <li><a href="#"><img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bible-study-tour-jump?scl=1"></a></li>
+            <li><a href="#"><img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/tgp-jump?scl=1"></a></li>
+            <li><a href="#"><img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/etb-jump?scl=1"></a></li>
+            <li><a href="#"><img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/dic-jump?scl=1"></a></li>
+            <li><a href="#"><img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bible-study-comparison-jump?scl=1"></a></li>
+        </ul>
+        <div class="view-all clearfix"><a href="#">View All Bible Study Options</a></div>
+    </div>
+</div>                </div>
+            </div>
+        </div><!-- #content -->
+    </div><!-- /#wrapper -->
+
+    <div class="cb"></div>
+
+    <div class="cb"></div>
+
+    <div id="foot_wrapper" class="group">
+        <div id="footer">
+            <ul id="corp_nav">
+                <li><a href="#"><div><span class="sprites-user-icon"></span></div>Sign In / Register</a></li>
+                <li><li>
+                <li><a href="#" target="blank_"><div><span class="sprites-help-icon"></span></div>Help &amp; FAQ</a></li>
+                <li id="order_forms">
+                    <li><a href="#"><div><span class="sprites-documents-icon"></span></div>Church Ordering</a></li>
+                </li>
+            </ul>
+            <div class="cb"></div>
+            <div class="mw-footer-links">
+                <a href="#">About Us</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Shipping Rates</a><a href="#">Return Policy</a>
+            </div>
+            <p class="copyright">© 2001&#8211;2012 LifeWay Christian Resources</p>
+            <p class="copyright">of the Southern Baptist Convention</p>
+            <a id="mw_desktop_link">View full site</a>
+        </div>
+        <!-- <div id="mw_desktop_link_config" cookie_hours="1" cookie_domain=".lifeway.com" rewriter_json='[{"matcher":"^m[a-z]*\\.lifeway\\.com","replacement":"www.lifeway.com"},{"matcher":"m[a-z]*\\.([a-z0-9\\-\\.]*lifeway\\.com)","replacement":"\\1"}]'></div> -->
+    </div>
+    <div class="wrap">
+        <div id="confidence" class=" mw_hide">
+            <p class="payment">Payment Options: <a href="#" rel="tooltip" title="LifeWay Accounts are for churches, ministries, and businesses only. Organizations having a not for profit status may also enjoy savings by not having to pay sales tax on qualifying products." class="disabled">LifeWay Account</a><span>, MasterCard, Visa, Discover and American Express</span></p>
+            <div id="lw_account_information"><p>LifeWay Accounts are for churches, ministries, and businesses only. Organizations having a not for profit status may also enjoy savings by not having to pay sales tax on qualifying products.</p></div>
+        </div>
+        <div id="trust" class=" mw_hide">
+            <p class="tagline">Your trusted source of Christian resources since 1891</p>
+        </div>
+    </div>
+    <form name="eti_navigation">
+        <input type="hidden" name="nav" value="4294964394 4294960922"><input type="hidden" name="srchTerms" value=""><input type="hidden" name="srchKey" value="">
+    </form>
+    <!--<script type="text/javascript" src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/javascript/main.js"></script>
+   -->
+        <script type="text/javascript" src="/portfolio/bsfl/js/bsfl.js"></script>
+   
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23885320-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+
+
+$bsfl-teal:#1A8094;
+$bsfl-teal2:#00afa9;
+$bsfl-gray:#42413f;
+
+
+$branding-color:$bsfl-teal2;
+
+$base-font-size:16px;
+$myriadpro-regular:myriad-pro, myriadpro-regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+$myriadpro-condensed: myriad-pro-condensed,myriadpro-semiboldcond,myriad-pro,myriadpro-regular,"Lucida Sans","Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+
+// RESETS
+// ---------------------------------------------------------------------- */
+
+// reset head_wrapper
+#head_wrapper {
+    background:transparent none;
+    border:0;
+    box-shadow: none;
+}
+
+// Navigation ------------------------------------------
+// remove nav borders
+//#primary_nav ul.nav-level-one > li:first-child::before,
+// #primary_nav ul.nav-level-one > li::after {
+//     background: transparent none;
+// }
+
+// // level one -----
+// // links
+ #primary_nav h4 a, #order_forms a {
+     color:$black;
+     &:hover {
+//         background-color:transparent;
+         color:$branding-color;
+     }
+ }
+
+// #primary_nav ul.nav-level-one li {
+//     &:hover,
+//     &:focus,
+//     &:active {
+//         background-color:transparent;
+//     }
+// }
+
+// // level two -----
+// ul.nav-level-two {
+//     background:$white;
+//     //border:1px solid $branding-color;
+//     border-right:0;
+//     box-shadow: none;
+// }
+// // links
+ #primary_nav ul.nav-level-two > li a {
+//     border-right:1px solid $branding-color;
+    color:$branding-color;
+}
+
+// .no-cssgradients #primary_nav ul.nav-level-two > li a,
+// .no-cssgradients #primary_nav ul.nav-level-two li:first-child {
+//     border:0;
+// }
+
+// // background color of level two links
+// #primary_nav ul.nav-level-two li {
+//     background:$white;
+// }
+
+// // hover state
+// // js
+// .js #primary_nav ul.nav-level-two li:hover a,
+// .js #primary_nav ul.nav-level-two > li.hover a,
+// .js #primary_nav ul.nav-level-two a:hover {
+//     background:$branding-color;
+//     border-top:1px solid $branding-color;
+//     border-bottom:1px solid $branding-color;
+//     color:$white;
+// }
+
+// // small nav arrow
+// #primary_nav ul.nav-level-two > li a:hover:after,
+// #primary_nav ul.nav-level-two > li:hover span.small_arrow { border-left-color:$branding-color; }
+
+// // small nav arrow hover
+// #primary_nav ul.nav-level-two > li.hover a:after,
+// #primary_nav ul.nav-level-two > li.hover span.small_arrow { border-left-color:$white; }
+
+// // large arrow border
+// #primary_nav ul.nav-level-two > li.hover a:before,
+// #primary_nav ul.nav-level-two > li.hover span.large_arrow_border {
+//     border-left:16px solid $branding-color;
+// }
+// // large arrow fill color
+// #primary_nav ul.nav-level-two > li.hover:after,
+// #primary_nav ul.nav-level-two > li.hover span.large_arrow {
+//     border-left:15px solid $branding-color;
+// }
+
+// // level three -----
+// // background
+#primary_nav ul.nav-level-three {
+    background:$white;
+    border:1px solid #eee;
+    border-left:0;
+    box-shadow: none;
+    left:199px;
+    right:0;
+    top:-1px;
+}
+#primary_nav ul.nav-level-two li.hover ul.nav-level-three {
+    box-shadow: none;
+    //border-left:1px solid $branding-color;
+}
+// // link color
+#primary_nav ul.nav-level-two li.hover ul.nav-level-three > li a {
+    color:$branding-color;
+}
+// hover state
+.js #primary_nav ul.nav-level-two li.hover ul.nav-level-three > li:hover a,
+.js #primary_nav ul.nav-level-three > li.hover a,
+.js #primary_nav ul.nav-level-three a:hover {
+    @include linear-gradient(#fefefe, darken(#fefefe,3%));
+    border-color:#eee;
+    //color:$white;
+}
+
+
+// Search ------------------------------------------
+#search input[type="text"] {
+    border:1px solid #000;
+    border-right:0;
+    border-radius: 0;
+    &:hover,
+    &:focus {
+        border-color: $branding-color;
+        box-shadow: none;
+    }
+}
+
+#search button {
+    background:#000;
+    border:1px solid #000;
+    border-left:0;
+    border-radius: 0;
+}
+
+#search button:hover {
+    background:$branding-color;
+    border-color: $branding-color;
+    box-shadow: none;
+}
+
+// make wrapper 100%
+#wrapper {
+    background:$white;
+    margin:0;
+    padding:36px 0 0 0;
+    position:relative;
+    min-width:960px;
+    width:100%;
+    padding-top: 0;
+}
+
+#corp_nav_wrapper {
+    background:$black none;
+    box-shadow:none;
+}
+
+// center content and make it expand
+// to content within
+#content {
+    @extend %cf;
+    float:none;
+    font-size:$base-font-size;
+    margin:0 auto;
+    position:relative;
+    width:936px;
+
+    p {
+        font-size:$base-font-size;
+        margin:0;
+    }
+
+    h3 {
+        font: 600 normal 24px/26px $myriadpro-regular;
+        margin:0;
+    }
+}
+
+// override cartidge defaults
+.text_spot {
+    clear:none;
+    color:inherit;
+    float:none;
+    margin:0;
+    width:auto;
+}
+
+.html {
+    margin:0;
+}
+

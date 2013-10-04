@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<!--[if IE 7 ]><html lang="en" class="ie7" id="lifeway-com"><![endif]--><!--[if IE 8 ]><html lang="en" class="ie8" id="lifeway-com"><![endif]--><!--[if IE 9 ]><html lang="en" class="ie9" id="lifeway-com"><![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html lang="en" id="lifeway-com">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>LifeWay Christian Bible Study | Bible Studies for Life</title>
+
+
+    <link rel="stylesheet" type="text/css" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/stylesheets/.css/devices/webkit.css">
+
+    <link href="/portfolio/bsfl/css/bsfl-mobile.css" type="text/css" rel="stylesheet" media="all">
+
+    <!--<script type="text/javascript" src="//use.typekit.net/yiy1stl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+-->
+    <script type="text/javascript" src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/javascript/mw-libraries.js"></script>
+   <!-- <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script> -->
+
+    <link rel="shortcut icon" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/favicon.ico">
+    <link rel="apple-touch-icon" href="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/apple-touch-icon.png">
+</head>
+<body class="list mw-search-results">
+    <div id="corp_nav_wrapper" class="group">
+        <div id="corp_nav"></div>
+    </div>
+
+    <div id="head_wrapper" class="group" data-ur-set="tabs" data-ur-closeable="true">
+        <div id="header">
+            <div id="mw-nav">
+                <div id="mw-menu" class="mw-nav-item" data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="menu">
+                    <span class="sprites-menu-icon"></span><a>Menu</a>
+                </div>
+
+                <div id="mw-search" class="mw-nav-item" data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="search">
+                    <span class="sprites-menu-search-icon"></span><a>Search</a>
+                </div>
+
+                <div id="mw-stores" class="mw-nav-item">
+                    <span class="sprites-stores-icon"></span><a href="#">Stores</a>
+                </div>
+
+                <div id="cart" class=" mw-nav-item">
+                    <span class="sprites-shopping-cart-icon"></span>
+                    <input type="hidden" name="order_id" id="order_id" value="."><input type="hidden" name="userId" id="userId" value="-1002">
+                    <a href="#" id="miniCartPointer" style="text-decoration:none;">
+                        <span class="icon">Cart</span>
+                        <span class="amount">(0 items) $0.00</span>
+                    </a>
+
+                    <form>
+                        <input type="hidden" name="cartRefreshMessage" id="cartRefreshMessage" value="Refreshing" key="cart.refresh.message">
+                    </form>
+                </div>
+            </div>
+            <div class="logo"><div id="logo">
+                <a href="#"><img src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/images/lifeway-logo.png" width="108" alt="Lifeway"></a>
+            </div>
+        </div><!-- /#header -->
+    </div><!-- /#head-wrapper -->
+
+    <div id="primary_nav" data-ur-tabs-component="content" data-ur-tab-id="menu" data-ur-state="disabled">
+        <ul class="nav-level-one" data-ur-set="tabs" data-ur-closeable="true">
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="category"><a href="#">Shop<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_0" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="category"></ul>
+            </li>
+
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="role"><a href="#">Events<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_1" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="role"></ul>
+            </li>
+
+            <li>
+                <h4 data-ur-tabs-component="button" data-ur-state="disabled" data-ur-tab-id="engage"><a href="#">Articles<span class="sprites-menu-arrow-down right"></span><span class="sprites-menu-arrow-up right"></span></a></h4>
+                <ul id="nav_2" class="nav-level-two subnavigation" data-ur-tabs-component="content" data-ur-state="disabled" data-ur-tab-id="engage"></ul>
+            </li>
+        </ul>
+    </div><!-- #primary_nav -->
+
+    <div id="search" data-ur-tabs-component="content" data-ur-tab-id="search" data-ur-state="disabled">
+        <form method="get" id="SearchForm" action="http://m.lifeway.com/Keyword/">
+            <div>
+                <div class="fields" style="display:none;">
+                    <label for="Ntk">Select a field to search: </label>
+                    <select name="Ntk" id="Ntk" tabindex="1"><option value="Keyword" selected>All</option>
+                        <option value="Title">Title</option>
+                        <option value="Product">Product #</option>
+                        <option value="Author">Author</option>
+                    </select>
+                </div>
+                <div class="keywords">
+                    <label for="keyword">Search </label>
+                    <input name="Keyword" id="Keyword" value="" tabindex="2" autocomplete="off" onkeydown="clearSearchType()" type="text" placeholder="Search">
+                    <button type="submit" tabindex="3" id="searchButton" onclick="s_objectID='Gobal_Search';">
+                    <span class="sprites-search-icon"></span></button><div class="cb"></div>
+                </div>
+            </div>
+        </form>
+    </div><!-- /#search -->
+
+    <div id="message_wrapper" class="wrap">
+        <div id="message">
+
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+    //Messaging for the Custom User Form
+    //var formStatusMessage = 'Form successfully submitted.';
+    </script>
+
+    <!-- DEFAULT SUPER HERO -->
+
+<div class="super-hero">
+    <div id="super-hero-image">
+        <div class="view-all clearfix"><a href="#">View all Bible Study options</a></div>
+        <div class="sign-up-free"><a href="/portfolio/bsfl/mobile/sign-up"><span>Preview 3 Sessions Free</span></a></div>
+        <div class="logo-block">
+            <h5 class="border">COMING FALL 2013</h5>
+            <a href="/portfolio/bsfl/mobile/">
+                <img id="super-hero-logo" src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-hero-logo?fmt=png-alpha"/>
+            </a>
+        </div>
+        <img class="banner" src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-hero-banner?scl=1"/>
+    </div>
+</div>
+
+
+
+    <div id="wrapper">
+        <div id="content">
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs">
+                    <li class="home"><a href="#">Home</a></li>
+                    <li><a href="#">Bible Study</a></li>
+                    <li>Sunday School Groups <span><a href="#"><span class="sprites-remove"></span></a></span></li>
+                    <div class="cb"></div>
+                </ul>
+            </div>
+
+            <div class="col_full">
+                <div class="html">
+                    <span id="settings" data-mobile-css="http://s3.amazonaws.com/LWbranding/bsfl/css/bsfl-mobile.css"></span>
+<div class="bsfl age-group-details adults">
+    <div id="nav" class="clearfix">
+        <!-- <a class="button shop_now" href="#">Shop Now</a> -->
+        <ul id="main-nav">
+            <li><a href="/portfolio/bsfl/mobile/">Overview</a></li>
+            <li><a href="/portfolio/bsfl/mobile/contributors/">Contributors</a></li>
+            <li class="selected"><a href="/portfolio/bsfl/mobile/adults/">Adults</a></li>
+            <li><a href="/portfolio/bsfl/mobile/students/">Students</a></li>
+            <li><a href="/portfolio/bsfl/mobile/kids/">Kids</a></li>
+            <li><a href="/portfolio/bsfl/mobile/options/">Options</a></li>
+        </ul>
+    </div>
+
+        <div class="double_col section clearfix">
+            <div id="promo-videos" class="col-2 one">
+                <div class="video-block clearfix">
+                    <div class="video-wrapper playlist-vertical">
+                        <div>
+                            <!-- Start of Brightcove Player -->
+                            <div style="display:none"></div>
+                            <!-- By use of this code snippet, I agree to the Brightcove Publisher T and C found at https://accounts.brightcove.com/en/terms-and-conditions/. --> 
+                            <script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+                            <object id="myExperience" class="BrightcoveExperience">
+                                <param name="bgcolor" value="#FFFFFF" />
+                                <param name="isVid" value="true" />
+                                <param name="isUI" value="true" />
+                                <param name="dynamicStreaming" value="true" />
+                                <param name="width" value="300" />
+                                <param name="height" value="406" />
+                                <param name="playerID" value="1621986699001" />
+                                <param name="playerKey" value="AQ~~,AAABCkUiSsE~,KvzYjcKbAcvXNRoK08QmmGXh981yXxF2" />
+                                <param name="@videoList" value="2296617868001" />
+                            </object><!-- This script tag will cause the Brightcove Players defined above it to be created as soon as the line is read by the browser. If you wish to have the player instantiated only after the rest of the HTML is processed and the page load is complete, remove the line. --> 
+                            <script type="text/javascript">brightcove.createExperiences();</script> 
+                            <!-- End of Brightcove Player -->
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-block">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Unique age level options: <a href="#">Young Adults</a>, <a href="">Adults</a>, <a href="#">Senior Adults</a></li>
+                        <li>Designed around three spheres of life: Christ, community, and culture</li>
+                        <li>One main Bible point in each session to help leaders have greater impact</li>
+                        <li>New 13-week studies are released each quarter which contain two six-week studies, plus one special focus session</li>
+                        <li>Leader and Personal Study Guides available for each new study</li>
+                        <li>Extra helps are available for purchase separately, including: commentaries, Biblical Illustrator, and a Leader Pack</li>
+                        <li>Leader Pack includes a short video from the author to aid leader's preparation for each session</li>
+                        <li>Two six-week studies per year fully align all age groups on the same Scripture passages to allow for churchwide campaigns</li>
+                        <li>Free videos to help promote each study</li>
+                    </ul>
+                </div>
+            </div> <!-- /.col-2.one -->
+        <div class="col-2 two">
+            <div class="img-text-block-2 clearfix switch">
+                <div class="text-block-3 half">
+                    <h3>Bible Studies for Life: Adults</h3>
+                    <p>The adult studies equip people to understand how faith impacts their families, their careers, and their struggles. And all the while challenging them to live out their faith, right where they are, right as they are.</p>
+                </div>
+            </div>
+            <div class="list-block">
+                <h3>Study Plan:</h3>
+                <p>Bible Studies for Life follows an ongoing study plan addressing key life issues and needs. You can view the first 3 years of the plan here.</p>
+                <ul>
+                    <li><a href="#">Year One</a></li>
+                    <li><a href="#">Year Two</a></li>
+                    <li><a href="#">Year Three</a></li>
+                </ul>
+            </div>
+            <div class="list-block">
+                <h3>Translation and Format Options:</h3>
+                <ul>
+                    <li><a href="#">Multiple translations</a> including HCSB, NIV, ESV, and <a href="#">KJV</a></li>
+                    <li>Multiple delivery options: Print, digital, and <a href="#">app</a></li>
+                    <li><a href="#">Pricing Guide</a></li>
+                </ul>
+            </div>
+            <div class="text-block-4 clearfix">
+                <div class="title-img">
+                    <h5>Church-wide Campaigns</h5>
+                </div>
+                <p class="clear">For churches wanting the focus of an all-church campaign, Bible Studies for Life will provide two simple opportunities each year, first in the Fall and then in Spring. All titles in all age groups will study the same scriptures for 6 weeks to help churches easily line up what groups are studying with pastors' sermons. Campaign helps, sermons, and promotional tools will also be available separately.</p>
+            </div>
+        </div> <!-- /.col-2.two -->
+    </div> <!-- /.video-section -->
+    <div class="sample-section section clearfix">
+        <h3>Recommended Samples</h3>
+        <div class="sample-img-block">
+            <div class="img-block">
+                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-adults-psg-cover?wid=155">
+            </div>
+            <p class="sample-name">Adults (37.9 MB)</p>
+            <a class="button down-arrow" href="#">Download<span> Samples</span></a>
+        </div> <!-- /.sample-img-block -->
+        <div class="sample-img-block">
+            <div class="img-block">
+                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-youngadults-ldrcover?wid=155">
+            </div>
+            <p class="sample-name">Young Adults (18.7 MB)</p>
+            <a class="button down-arrow" href="#">Download<span> Samples</span></a>
+        </div> <!-- /.sample-img-block -->
+        <div class="sample-img-block">
+            <div class="img-block">
+                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-senioradults-ldrcover?wid=155">
+            </div>
+            <p class="sample-name">Senior Adults (22.3 MB)</p>
+            <a class="button down-arrow" href="#">Download<span> Samples</span></a>
+        </div> <!-- /.sample-img-block -->
+        <div class="sample-img-block">
+            <div class="img-block">
+                <img src="http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-agegroups-signup-img?scl=1&qlt=100,1&hei=203&wid=155">
+            </div>
+            <p class="sample-name">&nbsp;</p>
+            <a class="button down-arrow" href="/portfolio/bsfl/mobile/sign-up">Sign Up</a>
+        </div> <!-- /.sample-img-block -->
+    </div> <!-- /.sample-section -->
+    <div class="sample-section section clearfix">
+        <div class="sample-img-block">
+            <div class="img-block">                
+                <img src="https://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-agegroups-adults-psg-cover-video.jpg">            
+            </div>
+            <p class="sample-name">Adults Videos (329.5 MB)</p>
+            <a class="button down-arrow" href="3">Download<span> Videos</span></a>
+        </div> 
+        <div class="sample-img-block">
+            <div class="img-block">
+                <img src="http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-sampler-box.jpg">
+            </div>
+            <p class="sample-name">Sampler Kit- $10</p>
+            <a class="button down-arrow" href="#">Learn More</a>
+        </div> 
+        <!-- /.sample-img-block -->
+    </div> <!-- /.sample-section -->
+    <div class="more-resources section clearfix">
+        <div class="essentials one-third left">
+            <h3>Essential Resources</h3>
+            <ul>
+                <li><span>Leader Guide</span></li>
+                <li><span>Personal Study Guide</span></li>
+            </ul>
+        </div>
+        <div class="others two-thirds right">
+            <h3>Other Resources</h3>
+            <p><span>Leader Pack<span></p>
+            <p><span>Commentary</span></p>
+            <p><span>Biblical Illustrator</span></p>
+            <p><span><a href="#">Personal Study Guide App</a></span></p>
+        </div>
+    </div>  <!-- /.more-resources -->
+    <div class="other-ages section clearfix">
+        <a href="/portfolio/bsfl/mobile/students">
+            <div class="text-block-2 students half left">
+                <h5>STUDENTS</h5>
+                <p>Develop students based on a discipleship framework that helps them know Christ.</p>
+            </div>
+        </a>
+        <a href="/portfolio/bsfl/mobile/kids">
+            <div class="text-block-2 kids half right">
+                <h5>KIDS</h5>
+                <p>Lead kids to know and connect with the God of the Bible.  That He is real and relevant to their everyday life.</p>
+            </div>
+        </a>
+    </div>
+    <div class="section second-nav clearfix">
+        <ul>
+            <li class="overview"><a href="/portfolio/bsfl/mobile/">Overview</a></li>
+            <li class="contr"><a href="/portfolio/bsfl/mobile/contributors">Contributors</a></li>
+            <li class="options"><a href="/portfolio/bsfl/mobile/options">Options</a></li>
+            <li class="shop_now"><a href="/portfolio/bsfl/mobile/sign-up">Free Preview</a></li>
+        </ul>
+    </div>
+    <div class="section promos">
+        <div class="view-all clearfix"><a href="#">View All Bible Study Options</a></div>
+    </div>
+</div>                </div>
+            </div>
+        </div><!-- #content -->
+    </div><!-- /#wrapper -->
+
+    <div class="cb"></div>
+
+    <div class="cb"></div>
+
+    <div id="foot_wrapper" class="group">
+        <div id="footer">
+            <ul id="corp_nav">
+                <li><a href="#"><div><span class="sprites-user-icon"></span></div>Sign In / Register</a></li>
+                <li><li>
+                <li><a href="#" target="blank_"><div><span class="sprites-help-icon"></span></div>Help &amp; FAQ</a></li>
+                <li id="order_forms">
+                    <li><a href="#"><div><span class="sprites-documents-icon"></span></div>Church Ordering</a></li>
+                </li>
+            </ul>
+            <div class="cb"></div>
+            <div class="mw-footer-links">
+                <a href="#">About Us</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Shipping Rates</a><a href="#">Return Policy</a>
+            </div>
+            <p class="copyright">© 2001&#8211;2012 LifeWay Christian Resources</p>
+            <p class="copyright">of the Southern Baptist Convention</p>
+            <a id="mw_desktop_link">View full site</a>
+        </div>
+        <!-- <div id="mw_desktop_link_config" cookie_hours="1" cookie_domain=".lifeway.com" rewriter_json='[{"matcher":"^m[a-z]*\\.lifeway\\.com","replacement":"www.lifeway.com"},{"matcher":"m[a-z]*\\.([a-z0-9\\-\\.]*lifeway\\.com)","replacement":"\\1"}]'></div> -->
+    </div>
+    <div class="wrap">
+        <div id="confidence" class=" mw_hide">
+            <p class="payment">Payment Options: <a href="#" rel="tooltip" title="LifeWay Accounts are for churches, ministries, and businesses only. Organizations having a not for profit status may also enjoy savings by not having to pay sales tax on qualifying products." class="disabled">LifeWay Account</a><span>, MasterCard, Visa, Discover and American Express</span></p>
+            <div id="lw_account_information"><p>LifeWay Accounts are for churches, ministries, and businesses only. Organizations having a not for profit status may also enjoy savings by not having to pay sales tax on qualifying products.</p></div>
+        </div>
+        <div id="trust" class=" mw_hide">
+            <p class="tagline">Your trusted source of Christian resources since 1891</p>
+        </div>
+    </div>
+    <form name="eti_navigation">
+        <input type="hidden" name="nav" value="4294964394 4294960922"><input type="hidden" name="srchTerms" value=""><input type="hidden" name="srchKey" value="">
+    </form>
+    <!--<script type="text/javascript" src="//d1topzp4nao5hp.cloudfront.net/lifeway/1.0.158/javascript/main.js"></script>
+   -->
+        <script type="text/javascript" src="/portfolio/bsfl/js/bsfl.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23885320-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>   
+</body>
+</html>

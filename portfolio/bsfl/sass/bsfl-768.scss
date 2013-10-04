@@ -1,0 +1,318 @@
+div#content { padding-top: 0px;}
+
+
+.super-hero h5 {
+    bottom: 162px;
+    font-style: inherit;
+    left: -13px;
+    position: absolute;
+    right: auto;
+    top: auto;
+}
+
+
+.super-hero #super-hero-image,
+.html {
+    max-width:936px;
+    margin:0 auto;}
+
+#super-hero-image .banner {
+    width:100%;
+}
+
+#super-hero-logo {
+    // bottom: -30px;
+}
+
+
+.html .section {
+    border-bottom: none;
+    margin-bottom:0;
+    padding:20px 0;
+}
+
+#connecting .text-block.left {
+    float:left;
+    padding-right:5%;
+    width:50%;
+}
+
+#points.right {
+    float:left;
+    margin-top:50px;
+    width:50%;
+}
+
+#points ul{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:400px;
+}
+
+#points.right li {
+    font-weight:400;
+    //line-height: 1.7;
+    padding:10px 12px 12px 12%;
+    width:31%;
+}
+
+#points li:first-child { padding-left: 8%; }
+
+#points li:last-child { padding-right: 0; }
+
+#points ul li.arrow:before { top: 22px; }
+
+.text-block.wise {margin-top: 0;}
+.img-text-block { margin:10px 0; }
+
+.html .bsfl.overview .img-text-block { margin:30px 0 10px; }
+
+.image-container,
+.rotator-container { padding-bottom: 0; }
+
+// .html .section.image-section,
+// .html .section.rotator-section { padding:40px 0; }
+
+.html .section.point-image-section {
+    padding-bottom:40px;
+    background: -moz-radial-gradient(bottom, ellipse cover,  rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.0) 70%); /* FF3.6+ */
+    background: -webkit-radial-gradient(bottom, ellipse cover,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(bottom, ellipse cover,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* Opera 12+ */
+    background: radial-gradient(ellipse at bottom,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* W3C */
+}
+.html .section.img-stack-block {
+    padding-top:40px;
+    background:transparent;
+    background: -moz-radial-gradient(top, ellipse cover,  rgba(0,0,0,0.04) 0%, rgba(0,0,0,0.0) 70%); /* FF3.6+ */
+    background: -webkit-radial-gradient(top, ellipse cover,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(top, ellipse cover,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* Opera 12+ */
+    background: radial-gradient(ellipse at top,  rgba(0,0,0,0.04) 0%,rgba(0,0,0,0) 70%); /* W3C */
+}
+
+
+.html .text-block-2 {
+    border: 5px solid white;
+    padding-top:20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 45%;
+}
+.html .text-block-2.left {
+    left: -15px;
+    right:auto;
+}
+
+.html .text-block-2 p {
+    line-height: 1.25;
+}
+
+.text-block-2 h5 {top:5px;}
+
+.two .text-block-2 {
+    left: -15px;
+    width: 34%;
+}
+
+.two .text-block-2 h5 { left:auto;}
+
+
+
+.resources .one-third {
+    float:left;
+    padding:20px 30px 20px 0;
+    width:40%;
+}
+
+
+.resources .two-thirds {
+    border-left:1px solid #aaa;
+    float:left;
+    padding:20px 0 20px 30px;
+    width:60%;
+}
+
+.resources .two-thirds .text-block {margin-top:0;}
+#content .resources .two-thirds .text-block p {
+    margin:0;
+    padding-top:0;
+}
+
+// .blog {width:60%; max-width: auto;padding-right:30px;}
+
+.point-image-section { position: relative;}
+.point-text.one{
+    position: absolute;
+    left: 51%;
+    top: 6%;
+    width: 25%;
+    padding: 10px;
+}
+
+.point-text.two {
+    position: absolute;
+    right: 2%;
+    top: 62%;
+    width: 24%;
+    padding: 10px;
+}
+
+.point-text.three {
+    position: absolute;
+    left: 2%;
+    bottom: 6%;
+    width: 45%;
+    padding: 10px;
+}
+
+.html .promos li {
+    width: 20%;
+}
+
+.html .promos li:nth-child(4) {margin-left: 0%;}
+
+.sampler-catalog {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* CONTRIBUTORS
+----------------------------------*/
+
+ .html .name-block h5,
+ .html .name-block div h5 {
+    text-transform: uppercase;
+    font-size: 18px
+ }
+
+
+/* AGE GROUPS PAGE
+----------------------------------*/
+.age-groups-page .text-block-2 {right:inherit; left:-15px;}
+.age-groups-page .text-block-2 h5 {left:auto;}
+.age-groups-page .img-text-block-2.switch img {float:left; padding:0 30px 0 0;}
+
+.age-group-details .text-block-4 h5 {
+    text-transform: uppercase;
+    font-size: 20px
+ }
+
+h5.young-adults { display: block !important; background: #d27f19 !important; font-size: 18px !important; }
+h5.senior-adults { display: block !important; background: #61896B !important; font-size: 18px !important; }
+.adults .title-block {float: left; margin-bottom: 20px; margin-right: 22px;}
+h5.young-adults:after { background:transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -77px -15px !important; }
+h5.senior-adults:after { background:transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -92px -15px !important; }
+
+
+.bsfl-age-cols a.button {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	margin-top: 0;
+}
+
+
+/* FORMS PAGES
+----------------------------------*/
+
+.bsfl .form form .full-name div {
+    float: left;
+    margin-right:20px;
+    max-width: 350px;
+    width: 50%;
+}
+
+#content .bsfl .form form .full-name div.two {
+    margin-right:0;
+    width: 45%;}
+#content .bsfl .form form .full-name .hide { display:none;}
+
+.bsfl .form form .full-name p.note { display:block;}
+
+
+/* THE OPTIONS [MONSTER] PAGE BOTTOM
+-----------------------------------------*/
+.bsfl.options .options-tables {
+    position:relative;
+}
+
+.bsfl.options .options-table {
+    float:left;
+    max-width: 54%;
+    position:relative;
+}
+.bsfl.options .options-table.adult-table {
+    z-index:50;
+}
+.bsfl.options .options-table.student-table {
+    margin-left: -31.08%;
+    z-index:40;
+}
+.bsfl.options .options-table.kid-table {
+    margin-left: -31.08%;
+    z-index:30;
+}
+
+#content .bsfl.options .sample-img-block p{
+    font-size: 75%;
+}
+
+.bsfl.options div.attributes.cell {
+    width: 58%;}
+
+.bsfl.options div.col.cell {
+    width: 42%;}
+
+.bsfl.options .adult-table .table-head,
+.bsfl.options .student-table .table-head { border-right:none;}
+
+
+.bsfl.options td .feature-list li {
+    list-style-type: disc;
+    padding:10px 3px 10px 0;
+}
+
+
+.bsfl.options .solutions td.col {
+    padding-top:58px;
+}
+
+.bsfl.options .empty {display:table-row;}
+
+
+.html .bsfl .product-options .sample-img-block {
+    width: 25%;
+    padding:0 10px;
+}
+
+/* THANK YOU
+----------------------------------*/
+
+p.download-note {
+    font-size: 12px !important;
+}
+.preview {
+    float: left;
+    margin: 40px 0;
+    width: 25%;
+    .preview-img-block {
+        margin: 0 auto;
+        width: 100%;
+        img {
+            margin: 0 auto;
+            width: 155px;
+        }
+    }
+    p.sample-name {
+        text-align: center;
+    }
+    a.button {
+        margin: 10px 0;
+    }
+    span.title-text {
+        display: block;
+        height: 67px;
+    }
+}

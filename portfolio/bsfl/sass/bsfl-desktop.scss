@@ -1,0 +1,383 @@
+
+.html { padding: 0px; }
+
+.super-hero {
+    width: 936px;
+    margin: 0 auto;
+}
+
+.super-hero h5 {
+    bottom: 165px;
+    font-style: inherit;
+    padding-left:10px;
+    left: -14px;
+}
+
+#search input#keywords { background-color:#ffffff;}
+.no-cssgradients #head_wrapper {background: #fff;}
+#wrapper { min-width:960px; }
+
+#foot_wrapper { background: #000; }
+
+#footer h3 {color:#fff;}
+.footer_nav a {
+    color: #fff;
+    &:hover {
+    color: #ddd;}
+}
+
+#content { width:936px; }
+
+#logo { background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-lw-logo-black?fmt=png-alpha) no-repeat 0 0; }
+
+.text-block-2 h5 {margin-top: 0;}
+#content .html h3 {margin-bottom:15px;}
+#content .html a { font-size: 16px;}
+
+#content .html p {
+    line-height: 1.4;
+    margin:10px 0;
+}
+
+.super-hero .view-all {
+    background:$bsfl-gray;
+    margin-bottom: 5px;
+}
+
+.super-hero .view-all a {
+    background: transparent;
+    background-image: none;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 3px 10px;
+    width: auto;
+}
+
+.super-hero .sign-up-free {
+    border:5px solid #fff;
+    border-top:none;
+    position:absolute;
+    right:-15px;
+    top:29px;
+}
+.super-hero .sign-up-free a {
+    background-image: none;
+    font-weight: 300;
+    padding: 8px 29px 8px 13px;
+    line-height: 1.3;
+}
+.super-hero .sign-up-free a span {
+    display:block;
+    font-size: 21px;
+    font-weight: bold;
+}
+.super-hero .sign-up-free a span:after {
+    border-top: 8px solid transparent;
+    border-right: none;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #fff;
+    content: "";
+    height: 0;
+    margin-top: -7px;
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    width: 0;
+}
+#super-hero-image {
+    padding-left: 20px;
+    width:100%;
+}
+#super-hero-image img { width:auto; }
+#super-hero-logo {
+    left: -20px;
+    bottom: -35px;
+}
+
+.html #nav { padding-top: 5px; }
+
+ul#main-nav,
+.second-nav ul,
+.promos ul { margin:0; padding:0; }
+
+ul#main-nav li { margin-right:17px; }
+
+ul#main-nav li:last-child { margin-right:5px; }
+
+.html #nav .shop_now { margin-right:0px; }
+
+.super-hero a {
+    color:$bsfl-gray;
+    &:hover {
+        color:darken($bsfl-gray,3%);
+    }
+}
+
+.super-hero #nav ul li.selected a {
+    color:$bsfl-teal2;
+    &:hover {
+        color:$bsfl-teal2;
+    }
+}
+
+.super-hero a.shop_now {color:#fcfcfc;}
+
+
+#content .html .point-text p { margin:0; }
+.html .point-text { padding:15px; }
+
+
+.image-section ul,
+.rotator-section ul { margin:0; }
+
+.image-section ul img,
+.rotator-section ul img { margin:0 auto; }
+
+
+.html .blog h5 { bottom:45%; }
+
+.html .blog h5:after {
+    right:-15px;
+    width:15px;
+    top:5px;
+
+}
+
+.second-nav li {
+    border:none;
+    width:21%;
+    margin:0 2%;
+    display:block;
+    position:relative;
+}
+
+.second-nav li a {
+    background-image:none;
+    display:table-cell;
+    border:none;
+    padding: 0 25px 0 15px;
+    height:76px;
+    width:1%;
+    text-align: right;
+    vertical-align: middle;
+    border-radius: 3px;
+    position:relative;
+    &:hover {background-color: $bsfl-teal2;}
+}
+
+.second-nav li.overview a {
+    padding-right: 115px;
+}
+.second-nav li.contr a {
+    padding-right: 70px;
+}
+
+.second-nav li.age a {
+    padding-right: 115px;
+}
+
+.second-nav li.options a{
+    padding-right: 113px;
+}
+
+.second-nav li.shop_now a{
+    padding-right:120px;
+}
+
+
+
+.second-nav li a:before {
+    border-radius: 0 3px 3px 0;
+    content:"";
+    display:block;
+    height:70px;
+    position:absolute;
+    right:3px;
+    top:3px;
+}
+
+.second-nav li.contr a:before {
+    width:56px;
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat 0 0;}
+.second-nav li.contr a:hover:before {
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat 0 -71px; }
+
+.second-nav li.age a:before {
+    width:99px;
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -57px 0; }
+.second-nav li.age a:hover:before {
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -57px -71px; }
+
+.second-nav li.options a:before {
+    width:97px;
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -157px 0; }
+.second-nav li.options a:hover:before {
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -157px -71px; }
+
+.second-nav li.shop_now a:before {
+    width:99px;
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -255px 0; }
+.second-nav li.shop_now a:hover:before {
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -255px -71px; }
+
+.second-nav li.overview a:before {
+    width:82px;
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -356px 0; }
+.second-nav li.overview a:hover:before {
+    background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-sprite-sub-nav?scl=1&fmt=png-alpha) no-repeat -356px -71px; }
+
+
+.promos ul img {width:100%;}
+
+
+.html .view-all {margin-top: 0px;}
+
+.html .view-all a {
+    background:transparent;
+    background-image:none;
+    text-align: left;
+    font-size: 16px;
+    margin-top:0px;
+    margin-bottom:20px;
+    color: $bsfl-teal2;
+    width:auto;
+    float:left;
+    &:hover {color:darken($bsfl-teal2,5%);}
+}
+
+.image-section .text-block, .video-section .text-block {
+    display: inline-block;
+    margin-top: 0;
+    width: 46%;
+}
+
+/* AGE-GROUPS PAGE
+----------------------------------*/
+
+.adults .video-block,
+.students .video-block,
+.kids .video-block {
+    display: block;
+}
+
+.age-group-details .more-resources ul { margin-left: 0; }
+
+/* OPTIONS PAGE
+----------------------------------*/
+
+.bsfl.options .solutions td.col {
+    padding-top:30px;
+}
+
+// .html .bsfl .product-options .title-block {height:20;}
+// .html .bsfl .product-options .title-block h5 {
+//     padding:5px 10px;
+// }
+
+/* CONTRIBUTORS
+----------------------------------*/
+
+.ie8 .contributor-img-section .one-contributor.first,
+.ie8 .contributor-name-plates .one-contributor.first {
+    clear:left;
+    margin-left:0;
+}
+
+.ie8 .contributor-img-section .one-contributor.third,
+.ie8 .contributor-name-plates .one-contributor.third {
+    margin-right:0;
+}
+
+// .ie8 .one-contributor.first2 {
+//     background:red;
+// //     clear:left;
+// //     margin-left:0;
+// }
+
+// .ie8 .one-contributor.third2 {
+//     background:green;
+//     // margin-right:0;
+// }
+
+.ie8 .html .name-block h5,
+.ie8 .html .name-block div {border:none;}
+
+.ie8 .html .name-block h5:before,
+.ie8 .html .name-block div:before {
+    background: #fff;
+    content: " ";
+    display: block;
+    height: 30px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 102.5%;
+}
+
+/* THANK YOU
+----------------------------------*/
+
+p.download-note {
+    font-size: 12px !important;
+}
+.preview {
+    float: left;
+    margin: 40px 0;
+    width: 25%;
+    .preview-img-block {
+        margin: 0 auto;
+        width: 100%;
+        img {
+            margin: 0 auto;
+        }
+    }
+    p.sample-name {
+        text-align: center;
+    }
+    a.button {
+        margin: 10px 0;
+    }
+    span.title-text {
+        display: block;
+        height: 67px;
+    }
+}
+
+
+
+// reseting list styles so we don't make the fonts gigantic with these new styles
+/* 2.PRODUCT
+---------------------------------------------------------------------- */
+
+td.product h3 { font-size:14px !important;  line-height:18px !important; }
+#content td.product h3 a { font-size:14px !important; line-height:18px !important; }
+td.product p { font-size:11px !important; margin:6px 0 !important; }
+td.product p.date { font-size:12px !important; }
+
+/* 3.PRICE
+---------------------------------------------------------------------- */
+
+td.price p.price { font-size:18px !important; line-height:27px !important; }
+td.price p.availability { font-size:11px !important; }
+td.price p.shipping { font-size:11px !important; line-height:15px !important; margin-top:3px !important; }
+td.price p.lw_created { margin:0 auto !important; }
+td.price p.starting { font-size:11px !important; line-height:14px !important; }
+
+
+/* 4.PURCHASE
+---------------------------------------------------------------------- */
+
+td.purchase .form_input { font-size:12px !important; }
+td.purchase p.details { font-size:11px !important; margin:6px 0 0 0 !important; }
+
+/* 5.SHOWING
+---------------------------------------------------------------------- */
+
+.search_info p { font-size:12px !important; line-height:18px !important; margin:8px 0 !important; }
+
+ul.search_links { font-size:12px !important; list-style:none; margin:8px 0 8px 24px !important; }
+
+
+.results_display, div.sort { font-size:12px !important; line-height:18px !important; }

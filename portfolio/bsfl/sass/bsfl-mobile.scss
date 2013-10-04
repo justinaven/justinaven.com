@@ -1,0 +1,18 @@
+@import "../../../sass/crate/crate";
+@import "../../../sass/colors";
+
+.clearfix {
+    @extend %cf;
+}
+
+@import "bsfl-320.scss";
+
+@media only screen and (min-width : 600px)  {
+    @import "bsfl-600.scss";
+}
+@media only screen and (min-width : 768px)  {
+    @import "bsfl-768.scss";
+}
+
+h5.young-adults { display: none !important; }
+h5.senior-adults { display: none !important; }

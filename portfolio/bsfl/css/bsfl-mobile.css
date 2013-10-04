@@ -1,0 +1,2061 @@
+.clearfix:after, .video-section:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* blockquote */
+.breadcrumbs, .type {
+  display: none; }
+
+p.errors {
+  background: #FFFFB3;
+  color: red;
+  padding: 5px; }
+
+#message p {
+  background: #D2EAFD;
+  color: #29298B;
+  padding: 5px; }
+
+div#content {
+  line-height: 1.4;
+  padding: 0; }
+  div#content p {
+    font-size: 16px;
+    margin: 0; }
+  div#content h3 {
+    font: 600 normal 24px/26px myriad-pro, myriadpro-regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+    margin: 0; }
+  div#content h3 a {
+    color: #555;
+    font: 600 normal 24px/26px myriad-pro, myriadpro-regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif !important; }
+  div#content h3 a:hover {
+    color: #777 !important;
+    text-shadow: none !important; }
+
+.text_spot {
+  clear: none;
+  color: inherit;
+  float: none;
+  margin: 0;
+  width: auto; }
+
+.html {
+  margin: 0;
+  padding: 15px; }
+
+.clear {
+  clear: both; }
+
+/* BSFL styles begin */
+#settings {
+  display: none; }
+
+.html *, .super-hero, .super-hero * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 16px; }
+
+.super-hero li,
+.html li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* super hero section */
+.super-hero {
+  background: white !important; }
+
+.super-hero .view-all a,
+.html .view-all a {
+  color: #eee;
+  display: block;
+  float: left;
+  margin-top: -6px;
+  padding: 5px;
+  background-color: #42413f;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4f4e4b), color-stop(100%, #323230));
+  background-image: -webkit-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -moz-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -ms-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -o-linear-gradient(top, #4f4e4b, #323230);
+  background-image: linear-gradient(top, #4f4e4b, #323230);
+  text-align: center;
+  text-decoration: none;
+  white-space: inherit;
+  width: 100%; }
+  .super-hero .view-all a:hover,
+  .html .view-all a:hover {
+    color: #fff; }
+
+.super-hero .sign-up-free a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #00aea8;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00c2bc), color-stop(100%, #009a94));
+  background-image: -webkit-linear-gradient(top, #00c2bc, #009a94);
+  background-image: -moz-linear-gradient(top, #00c2bc, #009a94);
+  background-image: -ms-linear-gradient(top, #00c2bc, #009a94);
+  background-image: -o-linear-gradient(top, #00c2bc, #009a94);
+  background-image: linear-gradient(top, #00c2bc, #009a94);
+  text-decoration: none;
+  padding: 5px; }
+  .super-hero .sign-up-free a:hover {
+    color: #eee; }
+
+#super-hero-image {
+  position: relative; }
+
+#super-hero-logo {
+  left: -3%;
+  width: 30%;
+  bottom: -15px;
+  position: absolute;
+  max-width: 224px;
+  z-index: 2; }
+
+.html #nav {
+  display: block;
+  list-style-type: none;
+  clear: left;
+  padding: 0 0 20px 0px; }
+
+.html #nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 13px 15px 0px 0px; }
+
+.html a {
+  color: #00afab;
+  text-decoration: none;
+  font-weight: 700; }
+  .html a:hover {
+    color: #00a09c;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.15);
+    text-decoration: none; }
+
+.html #nav ul li.selected a {
+  color: #42413f; }
+  .html #nav ul li.selected a:hover {
+    color: #42413f;
+    cursor: default;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+
+.html #nav .shop_now {
+  float: right;
+  margin-left: 20px; }
+
+a.button, .bsfl button#submit {
+  background-color: #1a8094;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c8ba1), color-stop(100%, #15697a));
+  background-image: -webkit-linear-gradient(top, #1c8ba1, #15697a);
+  background-image: -moz-linear-gradient(top, #1c8ba1, #15697a);
+  background-image: -ms-linear-gradient(top, #1c8ba1, #15697a);
+  background-image: -o-linear-gradient(top, #1c8ba1, #15697a);
+  background-image: linear-gradient(top, #1c8ba1, #15697a);
+  border: 1px solid #166d7e;
+  border-top-color: #1a8094;
+  border-radius: 1px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: #fcfcfc;
+  cursor: pointer;
+  display: inline-block;
+  font-family: myriad-pro, myriadpro-regular, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 900;
+  height: auto;
+  line-height: 1;
+  margin: 9px 5px 9px 0;
+  padding: 6px 11px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+  a.button:hover, .bsfl button#submit:hover {
+    background-color: #1c8ba1;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e93aa), color-stop(100%, #177183));
+    background-image: -webkit-linear-gradient(top, #1e93aa, #177183);
+    background-image: -moz-linear-gradient(top, #1e93aa, #177183);
+    background-image: -ms-linear-gradient(top, #1e93aa, #177183);
+    background-image: -o-linear-gradient(top, #1e93aa, #177183);
+    background-image: linear-gradient(top, #1e93aa, #177183);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    color: #fff; }
+  a.button:active, .bsfl button#submit:active {
+    background-color: #187587;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #156676), color-stop(100%, #1d8fa5));
+    background-image: -webkit-linear-gradient(top, #156676, #1d8fa5);
+    background-image: -moz-linear-gradient(top, #156676, #1d8fa5);
+    background-image: -ms-linear-gradient(top, #156676, #1d8fa5);
+    background-image: -o-linear-gradient(top, #156676, #1d8fa5);
+    background-image: linear-gradient(top, #156676, #1d8fa5);
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+    color: #fdfdfd; }
+
+/* content section */
+.super-hero h5,
+.html h5 {
+  background: #00aea8;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  left: -7px;
+  line-height: 1.2;
+  padding: 2px 10px;
+  position: absolute;
+  top: -10px; }
+
+.super-hero h5.students {
+  background: #ee3724; }
+
+.super-hero h5.kids {
+  background: #afbd22; }
+
+.super-hero h5:after,
+.html h5:after {
+  background: url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat 0px 0px;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  right: -15px !important;
+  top: 5px;
+  width: 15px !important; }
+
+.super-hero h5.border,
+.html h5.border {
+  border: 2px solid white; }
+
+.super-hero h5.border:after,
+.html h5.border:after {
+  background: url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat 0px -15px;
+  height: 17px;
+  right: -14px;
+  top: 4px;
+  width: 14px; }
+
+.super-hero .adults.border:after {
+  background: url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -15px -15px;
+  height: 17px;
+  right: -14px;
+  top: 4px;
+  width: 14px; }
+
+.super-hero .students.border:after {
+  background: url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -30px -15px;
+  height: 17px;
+  right: -14px;
+  top: 4px;
+  width: 14px; }
+
+.super-hero .kids.border:after {
+  background: url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -45px -15px;
+  height: 17px;
+  right: -14px;
+  top: 4px;
+  width: 14px; }
+
+.html .bsfl.kids .adults h5,
+.html .bsfl.students.adults h5,
+.html .bsfl.adults h5,
+.html .bsfl .adults h5 {
+  background: #66a1c6; }
+
+h5.adults {
+  background: #66a1c6 !important;
+  font-size: 18px !important; }
+
+h5.young-adults {
+  display: none; }
+
+h5.senior-adults {
+  display: none; }
+
+.html .bsfl.kids .adults h5:after,
+.html .bsfl.students .adults h5:after,
+.html .bsfl.adults h5:after,
+.html .bsfl .adults h5:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -15px 0px; }
+
+.html .bsfl.kids .adults h5.border:after,
+.html .bsfl.students.adults h5.border:after,
+.html .bsfl.adults h5.border:after,
+.html .bsfl .adults h5.border:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -15px -15px; }
+
+.html .bsfl.kids .students h5:after,
+.html .bsfl.adults .students h5:after,
+.html .bsfl.students h5,
+.html .bsfl .students h5 {
+  background: #ee3724; }
+
+.html .bsfl.kids .students h5:after,
+.html .bsfl.adults .students h5:after,
+.html .bsfl.students h5:after,
+.html .bsfl .students h5:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -30px 0px; }
+
+.html .bsfl.kids .students h5.border:after,
+.html .bsfl.adults .students h5.border:after,
+.html .bsfl.students h5.border:after,
+.html .bsfl .students h5.border:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -30px -15px; }
+
+.html .bsfl.kids h5,
+.html .bsfl .kids h5 {
+  background: #afbd22; }
+
+.html .bsfl.kids h5:after,
+.html .bsfl .kids h5:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -45px 0px; }
+
+.html .bsfl.kids h5.border:after,
+.html .bsfl .kids h5.border:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -45px -15px; }
+
+.super-hero h5 {
+  bottom: 2px;
+  left: 24%;
+  right: auto;
+  padding-left: 15px;
+  position: absolute;
+  top: auto; }
+
+.html img {
+  display: block; }
+
+.html .section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 20px; }
+
+.html .section:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin-bottom: 0; }
+
+.html .section h3 {
+  padding-top: 0; }
+
+.text-block,
+.video-wrapper {
+  margin: 10px 0 0 0; }
+
+.video-wrapper {
+  width: 100%; }
+
+.playlist-vertical {
+  padding-top:237px;
+}
+
+.video-block:after {
+  background: #00aea8;
+  content: "";
+  clear: left;
+  display: block;
+  height: 20px;
+  width: 100%;
+  margin-top: 3px; }
+
+.video-section .text-block p:last-child {
+  padding-bottom: 0; }
+
+.right, .left {
+  float: none; }
+
+.wise {
+  max-width: 450px; }
+
+.point-text {
+  background: #42413f;
+  margin: 0;
+  padding: 0px 15px;
+  color: #fcfcfc; }
+
+.point-text.one {
+  padding-top: 5px;
+  margin-top: -4px; }
+
+.point-text.three {
+  padding-bottom: 5px; }
+
+.html .text-block-2 {
+  background: #42413f;
+  margin: -4px 0 0 0;
+  padding: 5px 15px;
+  color: #fcfcfc; }
+
+.html a .text-block-2 {
+  font-weight: 300; }
+
+.img-stack-block .img-text-block {
+  margin: 20px 0 5px; }
+
+.img-text-block {
+  position: relative; }
+
+.image-container {
+  padding-bottom: 15px; }
+
+.image-window {
+  max-width: 480px;
+  display: block;
+  margin: 0 auto; }
+
+.image-window img {
+  margin-bottom: 0;
+  display: block; }
+
+.image-window:after {
+  background: #42413f;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 100%;
+  margin-top: 3px; }
+
+.adults .video-block,
+.students .video-block,
+.kids .video-block {
+  
+}
+
+.sampler-catalog {
+  display: none;
+  margin-bottom: 20px;
+  text-align: center; }
+
+/* OVERVIEW PAGE
+----------------------------------*/
+.webcast {
+  width: 100%; }
+  .webcast p {
+    font-size: 22px !important;
+    line-height: 1.40;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%; }
+    .webcast p strong {
+      font-size: 22px !important; }
+    .webcast p a {
+      font-size: 22px !important; }
+
+/* AGE GROUPS PAGE
+----------------------------------*/
+.age-groups-page .img-text-block-2 {
+  padding-top: 20px; }
+
+.age-groups-page .img-text-block-2 img {
+  width: 55%;
+  float: right;
+  padding: 0 0 10px 30px; }
+
+.age-groups-page .text-block-3 h3 {
+  display: inline; }
+
+.age-group-details .title-block h5 {
+  left: 7px;
+  margin-top: 0;
+  position: relative;
+  top: -11px; }
+
+/* ADULTS and Initial Stylings */
+.age-group-details .video-block:after {
+  background: #42413f; }
+
+.age-group-details .image-window {
+  max-width: none;
+  width: 100%; }
+
+.age-group-details .image-window img {
+  width: 100%; }
+
+.age-group-details .text-block.indent {
+  margin-top: 0;
+  padding: 0px 20px 20px; }
+
+.age-group-details .text-block.indent ul {
+  margin: 0 0 0 20px; }
+
+.age-group-details .text-block.indent ul li {
+  list-style-type: disc;
+  margin: 10px 0; }
+
+.age-group-details .feature-block {
+  background: #c0e0f3;
+  border: 2px solid #66a1c6;
+  clear: both;
+  display: block;
+  margin: 40px 0px 0px;
+  padding: 15px;
+  position: relative; }
+
+.age-group-details .col-2 .feature-block {
+  margin: 20px 0px 20px; }
+
+.age-group-details.students .feature-block {
+  background: #f7bfba;
+  border: 2px solid #ee3423; }
+
+.age-group-details.kids .feature-block {
+  background: #ecf0af;
+  border: 2px solid #afbc21; }
+
+.age-group-details .feature-block:before {
+  background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrow-up-adults?fmt=png-alpha) no-repeat 0 0;
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  left: 20%;
+  top: -20px;
+  width: 24px; }
+
+.age-group-details.students .feature-block:before {
+  background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrow-up-students?fmt=png-alpha) no-repeat 0 0; }
+
+.age-group-details.kids .feature-block:before {
+  background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrow-up-kids?fmt=png-alpha) no-repeat 0 0; }
+
+.age-group-details .list-block {
+  margin-bottom: 20px; }
+
+.age-group-details .list-block ul,
+.age-group-details .feature-block ul {
+  margin: 0;
+  padding: 10px 0 0 25px; }
+
+.age-group-details .list-block ul li,
+.age-group-details .feature-block ul li {
+  list-style-type: disc;
+  padding: 0 0 10px 0; }
+
+.age-group-details .list-block ul li:last-child,
+.age-group-details .feature-block ul li:last-child {
+  padding-bottom: 5px; }
+
+.age-group-details .list-block ul li {
+  list-style-image: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-bullet-adults?fmt=png-alpha); }
+
+.age-group-details.kids .list-block ul li {
+  list-style-image: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-bullet-kids?fmt=png-alpha); }
+
+.age-group-details.students .list-block ul li {
+  list-style-image: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-bullet-students?fmt=png-alpha); }
+
+.age-group-details .text-block-4 {
+  background: #42413f;
+  color: #fff;
+  padding: 15px; }
+
+.age-group-details .text-block-4 h5 {
+  background: #66a1c6;
+  margin: 5px 15px 10px 0px;
+  left: auto;
+  top: auto;
+  display: block;
+  position: relative; }
+
+.age-group-details .text-block-4 .title-img {
+  display: block;
+  float: left;
+  margin: 0 15px 0 0; }
+
+#content .html .age-group-details .text-block-4 p {
+  padding-top: 0;
+  margin-top: 0; }
+
+#content .html p:last-child {
+  padding-bottom: 0; }
+
+.html .age-group-details .adults h5 {
+  background: #66a1c6; }
+
+.html .age-group-details .students h5 {
+  background: #ee3724; }
+
+.html .age-group-details .kids h5 {
+  background: #afbd22; }
+
+.age-group-details .sample-section {
+  padding-bottom: 5px; }
+
+.age-group-details .sample-img-block {
+  float: left;
+  padding: 20px 10px;
+  text-align: center;
+  width: 50%; }
+
+.age-group-details .sample-img-block:nth-child(2n+4) {
+  clear: both; }
+
+.age-group-details .sample-img-block img {
+  margin: 0 auto; }
+
+.age-group-details .sample-img-block p {
+  text-align: center; }
+
+.bsfl.options .feature-list a.button,
+.age-group-details .sample-img-block a {
+  position: relative;
+  padding-right: 25px; }
+
+.age-group-details .sample-img-block a.button {
+  margin: 0; }
+
+.bsfl.options .feature-list a.button:after,
+.age-group-details .sample-img-block a.button:after {
+  border-top: 4px solid transparent;
+  border-right: none;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #eee;
+  content: "";
+  height: 0;
+  margin-top: -4px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 0; }
+
+.age-group-details .sample-img-block a.button span {
+  display: none; }
+
+.more-resources div.essentials {
+  margin-bottom: 20px; }
+
+.more-resources ul {
+  padding-left: 0; }
+
+.more-resources ul li {
+  list-style-type: none;
+  margin-top: 5px; }
+
+.more-resources ul li span,
+.more-resources p span {
+  color: #5c5b58;
+  font-weight: bold; }
+
+.html .other-ages .text-block-2 {
+  position: static;
+  margin-top: 20px;
+  padding: 20px; }
+
+.other-ages .text-block-2 h5 {
+  left: auto;
+  top: auto;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  margin-top: 0; }
+
+#promo-videos {
+  margin-top: 0px; }
+
+.bsfl-age-cols a.button {
+  display: block; }
+
+/* CONTRIBUTORS PAGE
+----------------------------------*/
+div#content .contributor-img-section h3 {
+  margin-bottom: 10px; }
+
+.one-contributor {
+  margin: 0;
+  padding: 0 0 20px 0; }
+
+.contr-img {
+  display: inline;
+  float: left;
+  width: 40%;
+  padding-right: 10px; }
+
+.contr-img img {
+  width: 100%; }
+
+.contr-img:after {
+  background: #42413f;
+  content: "";
+  display: block;
+  height: 20px;
+  margin-top: 3px;
+  width: 100%;
+  margin-bottom: 5px; }
+
+.name-block {
+  margin: 0 0 10px 0; }
+
+.advisory {
+  margin-bottom: 20px; }
+
+.html .one-contributor h6 {
+  font-size: 14px;
+  margin-left: 40%;
+  padding-left: 10px; }
+
+.html .name-block.plate {
+  margin: 10px 0 5px; }
+
+.contributor-name-plates .text-block {
+  margin-bottom: 10px; }
+
+.html .name-block.plate h5 {
+  background: #3f3c39; }
+
+.html .name-block h5 {
+  display: inline;
+  font-size: 16px;
+  left: 0px;
+  margin-left: -5px;
+  padding: 3px 10px;
+  position: relative;
+  text-transform: capitalize;
+  top: 3px; }
+
+.html .name-block h5:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat 0px -15px;
+  top: 2px; }
+
+.html .name-block.plate h5:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -60px 0px;
+  height: 15px;
+  right: -12px;
+  top: 3px;
+  width: 14px; }
+
+.html .name-block.clearfix {
+  max-height: 25px; }
+
+.html .name-block div h5 {
+  background: transparent;
+  border: none;
+  display: inline;
+  font-size: 16px;
+  left: auto;
+  margin: 0;
+  padding: 0px;
+  position: static;
+  top: auto; }
+
+.html .name-block div {
+  background: #00aea8;
+  border: 2px #fff solid;
+  display: block;
+  float: left;
+  left: 0px;
+  margin: -3px 100% 10px -5px;
+  margin-right: 10%;
+  max-width: 45%;
+  padding: 3px 10px;
+  position: relative;
+  top: auto; }
+
+.html .name-block div h5:after {
+  background-image: none; }
+
+.html .name-block div:after {
+  background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat 0px -15px;
+  content: " ";
+  display: block;
+  height: 17px;
+  right: -15px;
+  position: absolute;
+  width: 15px;
+  top: 3px; }
+
+/* ADULTS / STUDENTS / KIDS
+----------------------------------*/
+.age-level-options {
+  margin-top: 12px; }
+
+/* THE OPTIONS [MONSTER] PAGE BOTTOM
+-----------------------------------------*/
+.bsfl.options table,
+.bsfl.options thead,
+.bsfl.options tbody,
+.bsfl.options th,
+.bsfl.options td,
+.bsfl.options tr {
+  background: transparent;
+  background-image: none;
+  border: none;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+.bsfl.options .options-table {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0; }
+
+.bsfl.options table {
+  margin-bottom: 20px;
+  width: 100%;
+  background: #fff; }
+
+.bsfl.options td {
+  vertical-align: top;
+  float: none; }
+
+.bsfl.options td {
+  padding: 20px 5px;
+  padding: 10px 5px; }
+
+.bsfl.options .table-head {
+  background: #c3eae8;
+  border: 2px solid #039c96;
+  display: block;
+  position: relative; }
+
+.bsfl.options .table-head div.cell {
+  display: block;
+  float: left;
+  padding: 15px;
+  width: 50%; }
+
+.bsfl.options .col {
+  width: 50%; }
+
+.bsfl.options .table-head div.attributes.cell:after {
+  background: url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrow-down?fmt=png-alpha) no-repeat 0px 0px;
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  left: 20%;
+  bottom: -20px;
+  width: 24px; }
+
+.bsfl.options div.attributes.cell p.sample-description {
+  color: #039c96;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 0; }
+
+.bsfl.options div.col .title-img-block .img-block {
+  margin: 0 auto 10px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  max-width: 140px; }
+
+.bsfl.options div.col .title-img-block .img-block img {
+  width: 100%;
+  max-width: 140px; }
+
+.bsfl.options div.col .title-img-block .img-block h5 {
+  bottom: -42px;
+  left: 6px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 3px 8px;
+  position: absolute;
+  top: auto;
+  z-index: 1000; }
+
+#content .html .bsfl.options .double-cell h3 {
+  margin-bottom: 5px; }
+
+.bsfl.options .double-cell h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 5px 0; }
+
+.bsfl.options .sample-img-block {
+  display: none; }
+
+.bsfl.options .feature-list a.button span {
+  display: none; }
+
+.bsfl.options .sample-img-block {
+  float: left;
+  padding: 10px 5px;
+  text-align: center;
+  width: 20%; }
+
+.bsfl.options .sample-img-block img {
+  width: 100%; }
+
+#content .bsfl.options .sample-img-block p {
+  font-size: 75%;
+  text-align: center; }
+
+#content .bsfl.options .left-cell .sample-img-block p {
+  padding-right: 0; }
+
+#content .bsfl.options .left-cell {
+  border: none; }
+
+.bsfl.options .solutions {
+  border-bottom: 2px solid #039c96;
+  padding-top: 20px; }
+
+.bsfl.options td.double-cell {
+  padding-right: 10px; }
+
+.bsfl.options td:first-child {
+  padding-left: 0; }
+
+.bsfl.options td:last-child {
+  padding-right: 0; }
+
+.bsfl.options td.col {
+  border-left: 2px solid #039c96;
+  padding-left: 10px;
+  width: 50%; }
+
+.bsfl.options .kid-table .width-set {
+  width: 50%; }
+
+.bsfl.options .solutions td.col {
+  padding-top: 63px;
+  padding-right: 20px;
+  text-align: center; }
+
+.bsfl.options td .feature-list ul {
+  margin-left: 20px;
+  text-align: left; }
+
+.bsfl.options td .feature-list li {
+  list-style-type: disc;
+  padding: 5px 3px 5px 0; }
+
+.bsfl.options .inner-table td {
+  text-align: center;
+  padding: 10px 10px 10px 0; }
+
+.bsfl.options .bb td,
+.bsfl.options .inner-table.bb td {
+  border-bottom: 1px solid #ccc; }
+
+.bsfl.options .inner-table td:nth-child(1) {
+  text-align: left;
+  border-right: 2px solid #039c96; }
+
+.bsfl.options .inner-table.split-cell td:nth-child(1) {
+  border: none;
+  padding: 20px 20px 0 0;
+  text-align: center; }
+
+.bsfl.options .inner-table.split-cell td:nth-child(1) p {
+  padding-right: 20px; }
+
+.bsfl.options .inner-table.split-cell td:nth-child(2) {
+  border-right: 2px solid #039c96;
+  padding-top: 0;
+  text-align: left;
+  vertical-align: bottom; }
+
+#content .bsfl.options .bl {
+  border-right: 2px solid #039c96; }
+
+.bsfl.options .inner-table td.attribute-1 {
+  border-right: 2px solid #039c96;
+  font-weight: bold;
+  padding: 20px 5px 0 0;
+  text-align: left;
+  vertical-align: bottom; }
+
+.bsfl.options .inner-table td.attribute-2 {
+  border-right: 2px solid #039c96;
+  text-align: left; }
+
+#content .bsfl.options .inner-table td.attribute-1 p {
+  margin: 0; }
+
+.bsfl.options .inner-table.last td:nth-child(1) {
+  border-right: none; }
+
+.bsfl.options .inner-table.last td:nth-child(2) {
+  border-right: 2px solid #039c96;
+  text-align: left;
+  padding-bottom: 25px; }
+
+.bsfl.options .inner-table td span.yes {
+  background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-options-check?fmt=png-alpha) no-repeat 0 0;
+  display: inline-block;
+  height: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: -5000px;
+  width: 14px; }
+
+.bsfl.options .inner-table td span.note {
+  margin-left: 5px; }
+
+.bsfl.options .empty {
+  display: none; }
+
+.bsfl.options .more-details p {
+  padding: 10px 10px 10px 0;
+  text-align: center;
+  vertical-align: middle; }
+
+.js .bsfl.options .mm .double-cell {
+  border-bottom: 2px solid #039C96;
+  padding-top: 20px;
+  padding-left: 10px; }
+
+.js #content .bsfl.options .mm .double-cell h3 {
+  font-size: 27px;
+  margin-left: -10px;
+  padding: 20px 0; }
+
+.js #content .bsfl.options .more-details h3,
+.js #content .bsfl.options .additional.double-cell h3 {
+  font-size: 27px;
+  padding-top: 10px; }
+
+.js .bsfl.options .mm .col {
+  display: none; }
+
+.bsfl.options .asterisk-notes {
+  clear: both;
+  color: #888;
+  font-size: 12px;
+  padding: 0 20px; }
+
+.html .bsfl .product-options .age-block {
+  margin: 0 0 20px; }
+
+.html .bsfl .product-options .title-block {
+  display: block;
+  height: 40px;
+  position: static; }
+
+.html .bsfl .product-options .title-block:before {
+  background: #42413f;
+  bottom: auto;
+  content: " ";
+  display: block;
+  height: 20px;
+  position: static;
+  width: 100%;
+  z-index: 1; }
+
+.html .bsfl .product-options .title-block h5 {
+  left: 10px;
+  margin-top: 0;
+  padding: 2px 10px;
+  position: relative;
+  top: -10px; }
+
+#content .html .bsfl .product-options h3 {
+  clear: none;
+  margin: 10px 0;
+  padding-bottom: 0; }
+
+.html .bsfl .product-options ul {
+  font-weight: bold;
+  margin: 0 0 0 10px; }
+
+.html .bsfl .product-options .resources-list {
+  margin-bottom: 30px; }
+
+.html .bsfl .product-options .resources-list ul li {
+  margin: 15px 0;
+  line-height: 1.2; }
+
+.html .bsfl .product-options .sample-img-block {
+  display: block;
+  margin-bottom: 10px;
+  width: 33.3333%; }
+
+.bsfl .sample-downloads .img-block {
+  max-width: 120px;
+  margin: 0 auto; }
+
+#content .bsfl.options .product-options .sample-img-block p {
+  font-size: 16px; }
+
+.html .bsfl .product-options .sample-img-block a.button {
+  font-size: 12px;
+  margin-top: 0; }
+
+/* FORMS PAGES
+----------------------------------*/
+#content .bsfl .form_input {
+  margin: 10px 0; }
+
+#content .bsfl .form {
+  padding-left: 10px; }
+
+.html .bsfl.forms .title-block {
+  display: block;
+  position: static; }
+
+.html .bsfl.forms .title-block:before {
+  background: #42413f;
+  bottom: auto;
+  content: " ";
+  display: block;
+  height: 20px;
+  position: static;
+  width: 100%;
+  z-index: 1; }
+
+.html .bsfl.forms h5 {
+  left: 10px;
+  margin-top: 0;
+  padding: 3px 10px 5px;
+  position: relative;
+  z-index: 100; }
+
+#content .bsfl .form h2 {
+  font-weight: bold; }
+
+#content .bsfl label {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 5px;
+  padding: 0; }
+
+.bsfl input {
+  clear: left;
+  display: block;
+  max-width: 350px;
+  width: 100%; }
+
+.bsfl textarea {
+  clear: left;
+  display: block;
+  max-width: 500px;
+  width: 100%; }
+
+#content .bsfl form p.note {
+  color: #888;
+  margin: 0px 0 0 5px;
+  padding: 0px; }
+
+.bsfl .form form.linear label span.required_indicator {
+  left: auto;
+  right: auto;
+  padding-left: 2px;
+  top: -4px; }
+
+.bsfl .form form select {
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 0;
+  height: 36px;
+  position: relative;
+  max-width: 350px;
+  width: 100%; }
+
+.bsfl .form form .full-name div {
+  width: 100%; }
+
+.bsfl .form form .full-name p.note {
+  display: none; }
+
+.bsfl .form form .full-name #cm-name {
+  margin-bottom: 10px; }
+
+#content .bsfl .form form .checkbox {
+  margin-top: 15px; }
+
+#content .bsfl .form form .checkbox input {
+  float: left;
+  left: auto;
+  margin: 5px 10px 0 0;
+  width: auto; }
+
+.forms .text-block {
+  margin-top: 0; }
+
+.forms .special-block {
+  background: transparent;
+  padding: 20px 0; }
+
+.forms .special-block h4 {
+  font-size: 18px;
+  margin: 0px;
+  padding-bottom: 0px; }
+
+.forms .special-inner {
+  clear: both;
+  background: #42413f;
+  padding: 15px; }
+
+.forms .special-inner h6 {
+  color: #00aea8;
+  display: inline;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative; }
+
+.forms .special-inner .step {
+  margin-bottom: 20px; }
+
+.forms .special-inner .step.three {
+  margin-bottom: 0px; }
+
+.forms .special-inner .step p {
+  color: #ffffff;
+  margin: 10px 0; }
+
+.forms .special-inner .step {
+  margin-bottom: 20px; }
+
+.html .forms .special-inner a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: underline; }
+  .html .forms .special-inner a:hover {
+    color: #f0f0f0;
+    text-decoration: none; }
+
+.forms .back-links {
+  margin-bottom: 30px; }
+
+/* GLOBAL PAGE BOTTOM
+----------------------------------*/
+.resources .one-third img {
+  max-width: 350px;
+  width: 100%; }
+
+.second-nav ul {
+  width: 100%; }
+
+.second-nav li {
+  display: list-item;
+  width: 50%;
+  float: left;
+  border: 1px solid #fff; }
+
+.second-nav li a {
+  display: block;
+  list-style-type: none;
+  padding: 5px 10px;
+  text-align: center;
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #eee;
+  background-color: #42413f;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4f4e4b), color-stop(100%, #323230));
+  background-image: -webkit-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -moz-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -ms-linear-gradient(top, #4f4e4b, #323230);
+  background-image: -o-linear-gradient(top, #4f4e4b, #323230);
+  background-image: linear-gradient(top, #4f4e4b, #323230); }
+  .second-nav li a:hover {
+    color: #fff; }
+
+.html .promos li {
+  display: block;
+  float: left;
+  padding: 10px;
+  width: 50%; }
+
+.html .promos li:last-child {
+  margin-left: 25%; }
+
+.html .promos img {
+  display: block;
+  margin: 5px auto; }
+
+.html .view-all {
+  margin-top: 15px; }
+
+/* THANK YOU
+----------------------------------*/
+p.download-note {
+  font-size: 12px !important; }
+
+.preview {
+  float: left;
+  margin: 40px 0;
+  width: 50%; }
+  .preview .preview-img-block {
+    margin: 0 auto;
+    width: 100%; }
+    .preview .preview-img-block img {
+      margin: 0 auto;
+      width: 130px; }
+  .preview p.sample-name {
+    text-align: center; }
+  .preview a.button {
+    margin: 10px 0; }
+  .preview span.title-text {
+    display: block;
+    height: 67px; }
+
+.thanks-bottom {
+  margin-bottom: 30px; }
+  .thanks-bottom .thanks-again {
+    margin-bottom: 20px; }
+
+.share-block h4 {
+  font-weight: bold; }
+.share-block .twitter-share {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0;
+  padding: 4px 7px 4px 30px;
+  position: relative; }
+  .share-block .twitter-share:before {
+    background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-twitter-bird?fmt=png-alpha) no-repeat center center;
+    content: "";
+    display: block;
+    height: 23px;
+    left: 4px;
+    position: absolute;
+    top: 0px;
+    width: 23px; }
+
+.adults .title-block {
+  float: none !important; }
+
+.contest {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  width: 100%; }
+  .contest p {
+    font-size: 22px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    width: 600px; }
+    .contest p span {
+      font-weight: bold; }
+
+@media only screen and (min-width: 600px) {
+  .super-hero h5 {
+    font-size: 20px; }
+
+  .html ul#main-nav {
+    float: right;
+    margin-right: 0; }
+
+  .html #nav li {
+    padding: 13px 0 0 20px; }
+
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
+
+  .image-section .text-block,
+  .video-section .text-block {
+    display: inline;
+    float: none;
+    width: auto; }
+
+  .image-section .text-block h3,
+  .video-section .text-block h3 {
+    clear: none;
+    padding-top: 20px; }
+
+  .image-section .image-window,
+  .video-section .video-block {
+    display: inline-block;
+    float: left;
+    margin-right: 3%; }
+
+  .image-section .image-window.right,
+  .video-section .video-block.right {
+    display: inline-block;
+    float: right;
+    margin-left: 3%;
+    margin-right: 0; }
+
+  .video-wrapper {
+    margin-top: 0; }
+
+  .video-section .video-block {
+    width: 51%; }
+
+  .image-window {
+    max-width: 490px;
+    width: 51%; }
+
+  .image-section .image-window img {
+    width: 100%; }
+
+  .resources {
+    padding: 20px 0; }
+
+  .point-text {
+    padding: 0px 20px; }
+
+  .point-text.one {
+    padding-top: 10px; }
+
+  .point-text.three {
+    padding-bottom: 10px; }
+
+  .html .text-block-2 {
+    padding: 20px; }
+
+  .html h5 {
+    font-size: 20px;
+    position: relative;
+    top: auto;
+    left: auto;
+    font-style: inherit; }
+
+  .html .name-block h5 {
+    left: 7px;
+    font-size: 20px;
+    position: relative;
+    top: -10px; }
+
+  .html .name-block h5:after {
+    background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrows?fmt=png-alpha) no-repeat 0px -15px;
+    right: -15px;
+    width: 15px; }
+
+  .html .name-block.plate h5 {
+    background: #3f3c39;
+    margin-left: 7px;
+    left: auto;
+    top: auto; }
+
+  .img-text-block p {
+    padding-top: 15px; }
+
+  .html .blog h5 {
+    position: absolute;
+    top: auto;
+    bottom: 20%;
+    left: 5%; }
+
+  .html .resources,
+  .html .second-nav {
+    border: none; }
+
+  .second-nav li {
+    width: 25%; }
+
+  .html .promos li {
+    width: 33.3333%;
+    padding: 5px; }
+
+  .html .promos li:last-child {
+    margin-left: 0%; }
+
+  .html .promos li:nth-child(4) {
+    margin-left: 16.6666%; }
+
+  /* AGE GROUPS PAGE
+  ----------------------------------*/
+  .html .age-group-details .sample-img-block {
+    width: 25%; }
+
+  /* CONTRIBUTORS PAGE
+  ----------------------------------*/
+  .one-contributor {
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 50%; }
+
+  .contr-img {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-right: 0px; }
+
+  .html .name-block {
+    margin-bottom: 0px; }
+
+  .html .one-contributor h6 {
+    margin: 0 0 10px;
+    padding-left: 0;
+    font-size: 18px; }
+
+  .html .name-block.plate {
+    margin: 10px 0 5px; }
+
+  .html .contr-description {
+    padding: 0 10px; }
+
+  .html .contr-description p {
+    padding: 0;
+    margin: 0 0 10px 0; }
+
+  .one-contributor {
+    margin: 0 1%;
+    width: 32%; }
+
+  .contributor-img-section .one-contributor:nth-child(3n+2),
+  .contributor-name-plates .one-contributor:nth-child(3n+1) {
+    clear: left;
+    margin-left: 0; }
+
+  .contributor-img-section .one-contributor:nth-child(3n+4),
+  .contributor-name-plates .one-contributor:nth-child(3n+3) {
+    margin-right: 0; }
+
+  .contr-img {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-right: 0px; }
+
+  .html .name-block h5 {
+    left: 7px;
+    font-size: 16px;
+    margin-left: 0px;
+    position: relative;
+    top: -10px; }
+
+  .html .name-block.plate h5:after {
+    background: transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrows?fmt=png-alpha) no-repeat -60px 0px;
+    height: 15px;
+    right: -14px;
+    top: 5px; }
+
+  .html .name-block div {
+    display: inline;
+    float: none;
+    left: 7px;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    top: -10px;
+    width: auto; }
+
+  .html .name-block div:after {
+    top: 2px; }
+
+  /* AGE GROUPS PAGE
+  ----------------------------------*/
+  .age-group-details .col-2 {
+    float: left;
+    padding-bottom: 20px;
+    width: 50%; }
+
+  .age-group-details .col-2.one {
+    padding-right: 1.5%; }
+
+  .age-group-details .col-2.two {
+    padding-left: 1.5%; }
+
+  .age-group-details .double_col.section {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+  .age-group-details .feature-block {
+    margin: 40px 0px 20px; }
+
+  .more-resources .one-third {
+    padding-right: 15px;
+    width: 40%; }
+
+  .more-resources .two-thirds {
+    padding-left: 15px;
+    width: 60%; }
+
+  .html .other-ages .text-block-2 {
+    border: none;
+    float: left;
+    margin-top: 0;
+    width: 49%; }
+
+  .html .other-ages .text-block-2.right {
+    float: right; }
+
+  .bsfl.options table .sample-img-block {
+    display: block; }
+
+  .bsfl.options table .examples .sample-img-block {
+    width: 33.33333%; }
+
+  .bsfl.options .inner-table.split-cell td.left-cell {
+    width: 10%; }
+
+  .bsfl.options .inner-table.split-cell td.left-cell .sample-img-block {
+    width: 100%; }
+
+  .bsfl.options .kid-table .width-set,
+  .bsfl.options td.col {
+    width: 41%; }
+
+  .bsfl.options td.double-cell {
+    width: 57%; }
+
+  .bsfl.options div.attributes.cell {
+    width: 57%; }
+
+  .bsfl.options div.col.cell {
+    width: 43%; }
+
+  .js .bsfl.options .mm .double-cell {
+    border-bottom: none;
+    padding-top: 10px;
+    padding-left: 0px; }
+
+  .js #content .bsfl.options .mm .double-cell h3 {
+    margin-left: 0px;
+    padding: 15px 0 5px; }
+
+  .js .bsfl.options .mm .col {
+    display: table-cell; }
+
+  .html .bsfl .product-options .resources-list {
+    display: block;
+    float: left;
+    margin-right: 0;
+    width: 180px; }
+
+  #content .html .bsfl .product-options h3 {
+    margin: 20px 0; }
+
+  .html .bsfl .product-options .sample-downloads {
+    padding: 0 0 0 190px;
+    width: 100%; }
+
+  .html .bsfl .product-options .sample-img-block {
+    display: block;
+    padding: 0 10px;
+    width: 33.3333%; }
+
+  .age-group-details .sample-img-block:nth-child(2n+4) {
+    clear: none; }
+
+  .age-group-details .sample-img-block:nth-child(4n+6) {
+    clear: both; }
+
+  .html .bsfl .product-options .sample-img-block a.button {
+    font-size: 14px; }
+
+  .bsfl.options a.button,
+  .age-group-details .sample-img-block a {
+    position: relative;
+    padding-right: 25px; }
+
+  .bsfl.options a.button:after,
+  .age-group-details .sample-img-block a.button:after {
+    border-top: 4px solid transparent;
+    border-right: none;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #eee;
+    content: "";
+    height: 0;
+    margin-top: -4px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 0; }
+
+  /* FORMS PAGES
+  ----------------------------------*/
+  #content .bsfl .form {
+    padding-left: 20px; }
+
+  .html .bsfl.forms .title-block {
+    height: 20px;
+    margin-bottom: 40px; }
+
+  .html .bsfl.forms h5 {
+    left: 20px;
+    top: -10px; }
+
+  .main-block {
+    padding-left: 20px; }
+
+  .forms .special-block {
+    padding: 20px 5%; }
+
+  .forms .special-inner {
+    padding: 20px 0; }
+
+  .forms .special-inner .step {
+    float: left;
+    margin-bottom: 0;
+    padding: 0 20px;
+    width: 38%; }
+
+  .forms .special-inner .step.two {
+    float: left;
+    margin: 0;
+    width: 32%; }
+
+  .forms .special-inner .step.three {
+    float: left;
+    padding: 0 20px;
+    width: 30%; }
+
+  .forms .special-inner .step.one h6:before,
+  .forms .special-inner .step.two h6:after {
+    border-top: 5px solid transparent;
+    border-right: none;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid #009f99;
+    content: "";
+    height: 0;
+    margin-top: 0px;
+    position: absolute;
+    right: -20px;
+    top: 7px;
+    width: 0;
+    z-index: 1000; }
+
+  /* THANK YOU
+  ----------------------------------*/
+  p.download-note {
+    font-size: 12px !important; }
+
+  .preview {
+    float: left;
+    margin: 40px 0;
+    width: 25%; }
+    .preview .preview-img-block {
+      margin: 0 auto;
+      width: 100%; }
+      .preview .preview-img-block img {
+        margin: 0 auto;
+        width: 120px; }
+    .preview p.sample-name {
+      text-align: center; }
+    .preview a.button {
+      margin: 10px 0; }
+    .preview span.title-text {
+      display: block;
+      height: 67px; }
+
+  .thanks-bottom {
+    margin-bottom: 30px; }
+    .thanks-bottom .thanks-again {
+      float: left;
+      margin-bottom: 0px; }
+
+  .share-block {
+    float: right;
+    padding-right: 20px;
+    text-align: right; }
+    .share-block h4 {
+      margin: 0;
+      padding: 5px 0; }
+    .share-block .twitter-share {
+      display: block;
+      float: right;
+      margin-right: 0; } }
+@media only screen and (min-width: 768px) {
+  div#content {
+    padding-top: 0px; }
+
+  .super-hero h5 {
+    bottom: 162px;
+    font-style: inherit;
+    left: -13px;
+    position: absolute;
+    right: auto;
+    top: auto; }
+
+  .super-hero #super-hero-image,
+  .html {
+    max-width: 936px;
+    margin: 0 auto; }
+
+  #super-hero-image .banner {
+    width: 100%; }
+
+  .html .section {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding: 20px 0; }
+
+  #connecting .text-block.left {
+    float: left;
+    padding-right: 5%;
+    width: 50%; }
+
+  #points.right {
+    float: left;
+    margin-top: 50px;
+    width: 50%; }
+
+  #points ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px; }
+
+  #points.right li {
+    font-weight: 400;
+    padding: 10px 12px 12px 12%;
+    width: 31%; }
+
+  #points li:first-child {
+    padding-left: 8%; }
+
+  #points li:last-child {
+    padding-right: 0; }
+
+  #points ul li.arrow:before {
+    top: 22px; }
+
+  .text-block.wise {
+    margin-top: 0; }
+
+  .img-text-block {
+    margin: 10px 0; }
+
+  .html .bsfl.overview .img-text-block {
+    margin: 30px 0 10px; }
+
+  .image-container,
+  .rotator-container {
+    padding-bottom: 0; }
+
+  .html .section.point-image-section {
+    padding-bottom: 40px;
+    background: -moz-radial-gradient(bottom, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* FF3.6+ */
+    background: -webkit-radial-gradient(bottom, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(bottom, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* Opera 12+ */
+    background: radial, 50% 50%, ellipse at bottom, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%;
+    /* W3C */ }
+
+  .html .section.img-stack-block {
+    padding-top: 40px;
+    background: transparent;
+    background: -moz-radial-gradient(top, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* FF3.6+ */
+    background: -webkit-radial-gradient(top, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(top, ellipse cover, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%);
+    /* Opera 12+ */
+    background: radial, 50% 50%, ellipse at top, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0) 70%;
+    /* W3C */ }
+
+  .html .text-block-2 {
+    border: 5px solid white;
+    padding-top: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 45%; }
+
+  .html .text-block-2.left {
+    left: -15px;
+    right: auto; }
+
+  .html .text-block-2 p {
+    line-height: 1.25; }
+
+  .text-block-2 h5 {
+    top: 5px; }
+
+  .two .text-block-2 {
+    left: -15px;
+    width: 34%; }
+
+  .two .text-block-2 h5 {
+    left: auto; }
+
+  .resources .one-third {
+    float: left;
+    padding: 20px 30px 20px 0;
+    width: 40%; }
+
+  .resources .two-thirds {
+    border-left: 1px solid #aaa;
+    float: left;
+    padding: 20px 0 20px 30px;
+    width: 60%; }
+
+  .resources .two-thirds .text-block {
+    margin-top: 0; }
+
+  #content .resources .two-thirds .text-block p {
+    margin: 0;
+    padding-top: 0; }
+
+  .point-image-section {
+    position: relative; }
+
+  .point-text.one {
+    position: absolute;
+    left: 51%;
+    top: 6%;
+    width: 25%;
+    padding: 10px; }
+
+  .point-text.two {
+    position: absolute;
+    right: 2%;
+    top: 62%;
+    width: 24%;
+    padding: 10px; }
+
+  .point-text.three {
+    position: absolute;
+    left: 2%;
+    bottom: 6%;
+    width: 45%;
+    padding: 10px; }
+
+  .html .promos li {
+    width: 20%; }
+
+  .html .promos li:nth-child(4) {
+    margin-left: 0%; }
+
+  .sampler-catalog {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center; }
+
+  /* CONTRIBUTORS
+  ----------------------------------*/
+  .html .name-block h5,
+  .html .name-block div h5 {
+    text-transform: uppercase;
+    font-size: 18px; }
+
+  /* AGE GROUPS PAGE
+  ----------------------------------*/
+  .age-groups-page .text-block-2 {
+    right: inherit;
+    left: -15px; }
+
+  .age-groups-page .text-block-2 h5 {
+    left: auto; }
+
+  .age-groups-page .img-text-block-2.switch img {
+    float: left;
+    padding: 0 30px 0 0; }
+
+  .age-group-details .text-block-4 h5 {
+    text-transform: uppercase;
+    font-size: 20px; }
+
+  h5.young-adults {
+    display: block !important;
+    background: #d27f19 !important;
+    font-size: 18px !important; }
+
+  h5.senior-adults {
+    display: block !important;
+    background: #61896B !important;
+    font-size: 18px !important; }
+
+  .adults .title-block {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 22px; }
+
+  h5.young-adults:after {
+    background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -77px -15px !important; }
+
+  h5.senior-adults:after {
+    background: transparent url(http://s3.amazonaws.com/LWbranding/bsfl/images/bsfl-arrows.png) no-repeat -92px -15px !important; }
+
+  .bsfl-age-cols a.button {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    margin-top: 0; }
+
+  /* FORMS PAGES
+  ----------------------------------*/
+  .bsfl .form form .full-name div {
+    float: left;
+    margin-right: 20px;
+    max-width: 350px;
+    width: 50%; }
+
+  #content .bsfl .form form .full-name div.two {
+    margin-right: 0;
+    width: 45%; }
+
+  #content .bsfl .form form .full-name .hide {
+    display: none; }
+
+  .bsfl .form form .full-name p.note {
+    display: block; }
+
+  /* THE OPTIONS [MONSTER] PAGE BOTTOM
+  -----------------------------------------*/
+  .bsfl.options .options-tables {
+    position: relative; }
+
+  .bsfl.options .options-table {
+    float: left;
+    max-width: 54%;
+    position: relative; }
+
+  .bsfl.options .options-table.adult-table {
+    z-index: 50; }
+
+  .bsfl.options .options-table.student-table {
+    margin-left: -31.08%;
+    z-index: 40; }
+
+  .bsfl.options .options-table.kid-table {
+    margin-left: -31.08%;
+    z-index: 30; }
+
+  #content .bsfl.options .sample-img-block p {
+    font-size: 75%; }
+
+  .bsfl.options div.attributes.cell {
+    width: 58%; }
+
+  .bsfl.options div.col.cell {
+    width: 42%; }
+
+  .bsfl.options .adult-table .table-head,
+  .bsfl.options .student-table .table-head {
+    border-right: none; }
+
+  .bsfl.options td .feature-list li {
+    list-style-type: disc;
+    padding: 10px 3px 10px 0; }
+
+  .bsfl.options .solutions td.col {
+    padding-top: 58px; }
+
+  .bsfl.options .empty {
+    display: table-row; }
+
+  .html .bsfl .product-options .sample-img-block {
+    width: 25%;
+    padding: 0 10px; }
+
+  /* THANK YOU
+  ----------------------------------*/
+  p.download-note {
+    font-size: 12px !important; }
+
+  .preview {
+    float: left;
+    margin: 40px 0;
+    width: 25%; }
+    .preview .preview-img-block {
+      margin: 0 auto;
+      width: 100%; }
+      .preview .preview-img-block img {
+        margin: 0 auto;
+        width: 155px; }
+    .preview p.sample-name {
+      text-align: center; }
+    .preview a.button {
+      margin: 10px 0; }
+    .preview span.title-text {
+      display: block;
+      height: 67px; } }
+h5.young-adults {
+  display: none !important; }
+
+h5.senior-adults {
+  display: none !important; }

@@ -1,0 +1,23 @@
+
+{% include header.html %}
+
+    <body class="blog">
+      {% include nav.html %}
+
+        <div class="main">
+            
+            <div class="content">
+                {{ content }}
+            </div>
+        
+            {% include aside.html %}
+          
+
+        </div><!-- #main -->
+
+        <footer>
+{% include google_analytics.html %}
+        </footer>
+
+    </body>
+</html>

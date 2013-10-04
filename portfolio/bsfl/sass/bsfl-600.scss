@@ -1,0 +1,571 @@
+
+// .html *, .super-hero, .super-hero *, div#content p {
+//     font-size:14px;
+// }
+
+.super-hero h5 {
+    font-size: 20px;
+}
+
+.html ul#main-nav {
+    float: right;
+    margin-right:0;
+}
+
+.html #nav li {
+    padding:13px 0 0 20px;
+}
+
+
+.left { float:left; }
+.right { float:right; }
+
+
+// .image-section .text-block,
+// .video-section .text-block {
+//     width: 49%;
+//     margin-top: 0px;
+//     padding-left:4%;
+//     padding-top: 20px;
+// }
+// .video-section .text-block.left,
+// .image-section .text-block.left {
+//     padding-left:0%;
+//     padding-right:4%;
+// }
+
+
+
+.image-section .text-block,
+.video-section .text-block {
+    display:inline;
+    float:none;
+    width:auto;
+}
+.image-section .text-block h3,
+.video-section .text-block h3 {
+    clear:none;
+    padding-top:20px;
+}
+
+.image-section .image-window,
+.video-section .video-block {
+    display:inline-block;
+    float:left;
+    margin-right: 3%;
+}
+
+.image-section .image-window.right,
+.video-section .video-block.right {
+    display:inline-block;
+    float:right;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+
+
+.video-wrapper {margin-top: 0;}
+
+.video-section .video-block { width: 51%; }
+
+
+// #connecting .text-block.left {
+//     float: none;
+//     width:100%;
+// }
+
+// #points {
+//     float: none;
+//     width:100%;
+// }
+
+.image-window {
+    max-width: 490px;
+    width: 51%;
+}
+
+.image-section .image-window img {width:100%;}
+
+
+
+// .overview .image-section .image-window,
+// .overview .image-section .text-block,
+// .overview .video-section .video-block,
+// .overview .video-section .text-block { width:50%; }
+
+
+
+
+.resources {padding:20px 0;}
+
+// .blog {
+//     padding-bottom:0px;
+//     width:45%;
+//     float:left;
+//     padding-right:15px;
+// }
+
+// .blog .img-block {margin-bottom: 15px;}
+
+// .blog .text-block {
+//     background:#fff;
+//     margin:0;
+//     padding:0px 0px 5px ;
+//     color:#333;
+//     margin-top:-4px;
+// }
+
+// .resources .one-third {
+//     padding-top: 0px;
+//     border-top: none;
+//     width:55%;
+//     float:left;
+//     padding-left:15px;
+//     border-left: 1px solid #aaa;
+// }
+
+.point-text {padding:0px 20px;}
+.point-text.one {padding-top:10px;}
+.point-text.three {padding-bottom:10px;}
+
+.html .text-block-2 {
+    padding: 20px;
+}
+
+.html h5 {
+    font-size: 20px;
+    position:relative;
+    top:auto;
+    left:auto;
+    font-style: inherit;
+}
+
+
+.html .name-block h5 {
+    left:7px;
+    font-size:20px;
+    position:relative;
+    top:-10px;
+}
+
+
+.html .name-block h5:after {
+    background:transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrows?fmt=png-alpha) no-repeat 0px -15px;
+    right: -15px;
+    width: 15px;
+}
+
+.html .name-block.plate h5 {
+    background: #3f3c39;
+    margin-left:7px;
+    left:auto;
+    top:auto;
+}
+
+.img-text-block p { padding-top: 15px;}
+
+
+.html .blog h5 {
+    position:absolute;
+    top:auto;
+    bottom:20%;
+    left:5%;
+}
+
+
+
+.html .resources,
+.html .second-nav {border:none;}
+
+.second-nav li {width:25%;}
+
+
+.html .promos li {
+    width: 33.3333%;
+    padding:5px;
+}
+
+
+.html .promos li:last-child {margin-left:0%;}
+
+.html .promos li:nth-child(4) {margin-left: 16.6666%;}
+
+
+
+
+/* AGE GROUPS PAGE
+----------------------------------*/
+.html .age-group-details .sample-img-block { width:25%; }
+
+
+/* CONTRIBUTORS PAGE
+----------------------------------*/
+
+.one-contributor {
+    display:block;
+    float:left;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width:50%;
+}
+
+.contr-img {
+    display:block;
+    float:none;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.html .name-block { margin-bottom:0px;}
+
+.html .one-contributor h6 {
+    margin:0 0 10px;
+    padding-left:0;
+    font-size: 18px
+}
+
+.html .name-block.plate { margin: 10px 0 5px; }
+
+.html .contr-description { padding: 0 10px;}
+
+.html .contr-description p { padding: 0; margin:0 0 10px 0; }
+
+
+
+
+.one-contributor {
+    margin: 0 1%;
+    width:32%;
+}
+
+.contributor-img-section .one-contributor:nth-child(3n+2),
+.contributor-name-plates .one-contributor:nth-child(3n+1) {
+    clear:left;
+    margin-left:0;
+}
+
+.contributor-img-section .one-contributor:nth-child(3n+4),
+.contributor-name-plates .one-contributor:nth-child(3n+3) {
+    margin-right:0;
+}
+
+
+
+
+
+
+.contr-img {
+    display:block;
+    float:none;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.html .name-block h5 {
+    left:7px;
+    font-size: 16px;
+    margin-left: 0px;
+    position:relative;
+    top:-10px;
+}
+
+.html .name-block.plate  h5:after {
+    background:transparent url(http://s7d9.scene7.com/is/image/LifeWayChristianResources/bsfl-arrows?fmt=png-alpha) no-repeat -60px 0px;
+    height:15px;
+    right:-14px;
+    top:5px;
+}
+
+ .html .name-block div {
+    display:inline;
+    float:none;
+    left:7px;
+    margin: 0;
+    max-height: none;
+    max-width: none;
+    top:-10px;
+    width:auto;
+ }
+
+
+.html .name-block div:after {
+    top:2px;
+}
+
+
+
+
+
+
+
+
+
+/* AGE GROUPS PAGE
+----------------------------------*/
+
+.age-group-details .col-2 {
+    float:left;
+    padding-bottom: 20px;
+    width:50%;
+}
+
+.age-group-details .col-2.one { padding-right:20px; }
+.age-group-details .col-2.two { padding-left:20px; }
+
+.age-group-details .double_col.section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.age-group-details .feature-block {
+     margin: 40px 0px 20px;
+}
+
+//.age-group-details .col-2 .feature-block {margin: 10px 0px 0px;}
+
+.more-resources .one-third {
+    padding-right: 15px;
+    width:40%;
+}
+
+.more-resources .two-thirds {
+    padding-left: 15px;
+    width:60%;
+}
+
+
+.html .other-ages .text-block-2 {
+    border:none;
+    float:left;
+    margin-top:0;
+    width:49%;
+}
+
+
+.html .other-ages .text-block-2.right {float:right;}
+
+
+
+// /* OPTIONS PAGE
+// ********************************************/
+
+.bsfl.options table .sample-img-block {
+    display:block;
+}
+
+.bsfl.options table .examples .sample-img-block {
+    width:33.33333%;
+}
+
+
+.bsfl.options .inner-table.split-cell td.left-cell {
+    width:10%;
+}
+.bsfl.options .inner-table.split-cell td.left-cell .sample-img-block{
+    width:100%;
+}
+
+.bsfl.options .kid-table .width-set,
+.bsfl.options td.col {
+    width: 41%;
+}
+
+.bsfl.options td.double-cell {
+    width: 57%;
+}
+
+.bsfl.options div.attributes.cell {
+    width: 57%;}
+
+.bsfl.options div.col.cell {
+    width: 43%;}
+
+
+.js .bsfl.options .mm .double-cell {
+    border-bottom: none;
+    padding-top: 10px;
+    padding-left:0px;
+}
+
+.js #content .bsfl.options .mm .double-cell h3 {
+    margin-left:0px;
+    padding:15px 0 5px;
+}
+.js .bsfl.options .mm .col {
+    display:table-cell;
+}
+
+.html .bsfl .product-options .resources-list {
+    display:block;
+    float:left;
+    margin-right:0;
+    width:180px;
+}
+
+#content .html .bsfl .product-options h3 { margin:20px 0;}
+
+.html .bsfl .product-options .sample-downloads {
+    padding: 0 0 0 190px;
+    width:100%;
+}
+.html .bsfl .product-options .sample-img-block {
+    display:block;
+    padding:0 10px;
+    width:33.3333%;
+}
+
+.age-group-details .sample-img-block:nth-child(2n+4) {clear:none;}
+.age-group-details .sample-img-block:nth-child(4n+6) {clear:both;}
+
+.html .bsfl .product-options .sample-img-block a.button {font-size:14px; }
+
+
+.bsfl.options a.button,
+.age-group-details .sample-img-block a { position:relative; padding-right: 25px;}
+
+.bsfl.options a.button:after,
+.age-group-details .sample-img-block a.button:after {
+    border-top: 4px solid transparent;
+    border-right: none;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #eee;
+    content: "";
+    height: 0;
+    margin-top: -4px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 0;
+}
+
+
+
+
+
+
+/* FORMS PAGES
+----------------------------------*/
+#content .bsfl .form {
+    padding-left:20px;
+}
+
+.html .bsfl.forms .title-block {
+    height:20px;
+    margin-bottom:40px;
+}
+
+.html .bsfl.forms h5 {
+    left:20px;
+    top:-10px;
+}
+
+.main-block {padding-left:20px;}
+
+.forms .special-block {
+    padding: 20px 5%;
+}
+
+.forms .special-inner {padding:20px 0;}
+
+.forms .special-inner .step {
+    float:left;
+    margin-bottom: 0;
+    padding:0 20px;
+    width: 38%;
+}
+.forms .special-inner .step.two {
+    float:left;
+    margin:0;
+    width: 32%;
+}
+
+.forms .special-inner .step.three {
+    float:left;
+    padding:0 20px;
+    width: 30%;
+}
+
+.forms .special-inner .step.one h6:before,
+.forms .special-inner .step.two h6:after {
+    border-top: 5px solid transparent;
+    border-right: none;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid darken($bsfl-teal2,3%);
+    content: "";
+    height: 0;
+    margin-top: 0px;
+    position: absolute;
+    right: -20px;
+    top: 7px;
+    width: 0;
+    z-index: 1000;
+}
+
+/* THANK YOU
+----------------------------------*/
+
+p.download-note {
+    font-size: 12px !important;
+}
+.preview {
+    float: left;
+    margin: 40px 0;
+    width: 25%;
+    .preview-img-block {
+        margin: 0 auto;
+        width: 100%;
+        img {
+            margin: 0 auto;
+            width: 120px;
+        }
+    }
+    p.sample-name {
+        text-align: center;
+    }
+    a.button {
+        margin: 10px 0;
+    }
+    span.title-text {
+        display: block;
+        height: 67px;
+    }
+}
+
+.thanks-bottom {
+    margin-bottom: 30px;
+    .thanks-again {
+        float:left;
+        margin-bottom: 0px;
+    }
+}
+.share-block {
+    float:right;
+    padding-right: 20px;
+    text-align: right;
+    h4 {
+        margin:0;
+        padding:5px 0;
+    }
+    .twitter-share {
+        display:block;
+        float:right;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
